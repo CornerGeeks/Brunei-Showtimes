@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase /brunei/showtimes
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule json json.php [L,QSA]
+
