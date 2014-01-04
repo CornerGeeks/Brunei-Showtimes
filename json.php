@@ -8,7 +8,7 @@ header('Cache-Control: max-age=420');
 date_default_timezone_set('Asia/Brunei');
 $cachefile=__DIR__ ."/cash/".(int)(date_timestamp_get(date_create())/7200).".json";
 $headers = apache_request_headers(); 
-if(file_exists($cachefile) && empty($_GET['local'])){
+if(file_exists($cachefile) && @empty($_GET['local'])){
 if (isset($headers['If-Modified-Since']) && (strtotime($headers['If-Modified-Since']) == filemtime($cachefile))) {
     header('Last-Modified: '.gmdate('D, d M Y H:i:s', filemtime($cachefile)).' GMT', true, 304);
 }
@@ -110,7 +110,7 @@ function d($n){
 
 
 
-# die(get_web_page("http://mall-ticket.com/visShowtimes.aspx"));
+
 function get_vis($url,$name,$namePattern=null,$replace=null){
 	$movies=array();
 	$data=get_web_page($url);
@@ -142,15 +142,15 @@ function get_vis($url,$name,$namePattern=null,$replace=null){
 	$num=preg_match_all($pattern_table,$data,$matches);
 	for($i=0;$i<$num;$i++){		
 		$numberTimes=preg_match_all($pattern_time,$matches[0][$i],$sessionTimes);
-		date_default_timezone_set('GMT+8');
 		$date= date('d-m');
 		$times=array();
-		$times[$date] = array();
+#		$times[$name] = array();
+#		$times[$name][$date] = array();
 		for($j=0;$j<$numberTimes;$j++){
 			$temp= date_parse($sessionTimes[1][$j]);
 			$time= sprintf("%02d:%02d",$temp["hour"],$temp["minute"]);
 			
-			$times[$date][]=$time;
+			$times[$name][$date][]=$time;
 		}
 		preg_match_all($pattern_movie_name,$matches[0][$i],$movieNameExtract);
 		$movieName = @$movieNameExtract[1][0];
@@ -197,7 +197,9 @@ function get_mall(){
 	return get_vis(
 	 	(@$_GET['local'] == "1" ? 
 		"tests/mall.txt" :
-		"http://mall-ticket.com/visPrintShowTimes.aspx?visCinemaID=&ReturnURL=visShowtimes.aspx%3fAspxAutoDetectCookieSupport%3d1"),
+		"http://mall-ticket.com/visShowtimes.aspx"
+//		"http://mall-ticket.com/visPrintShowTimes.aspx?visCinemaID=&ReturnURL=visShowtimes.aspx%3fAspxAutoDetectCookieSupport%3d1"
+		),
 		"The-Mall",
 		"/ Blockbuster$/",'' //Y U NO NAME CONSISTENTLY?!!
 	);
@@ -469,7 +471,7 @@ Array
 
 )
 */
-if($_GET['print'] == 1){
+if(@$_GET['print'] == 1){
 	print_r("mall:");
 	print_r(get_mall());
 }
@@ -477,7 +479,7 @@ foreach(get_mall() as $name=>$time){
 	add_times($name,$time);
 }
 
-if($_GET['print'] == 1){
+if(@$_GET['print'] == 1){
 	print_r("times:");
 	print_r(get_timesSquare());
 }
@@ -485,7 +487,7 @@ if($_GET['print'] == 1){
 foreach(get_timesSquare() as $name=>$time){
 	add_times($name,$time);
 }
-if($_GET['print'] == 1){
+if(@$_GET['print'] == 1){
 	print_r("qlap:");
 	print_r(get_qlap());
 }
@@ -494,14 +496,13 @@ foreach(get_qlap() as $name=>$time){
 	add_times($name,$time);	
 }
 
-if($_GET['print'] == 1){
+if(@$_GET['print'] == 1){
 	print_r("seria:");
 	print_r(get_psbSeria());
 }
 foreach(get_psbSeria() as $name=>$time){
 	add_times($name,$time);	
 }
-die();
 
 $movies=array_filter($movies,function($v){
 	return !empty($v["cinema"]);
