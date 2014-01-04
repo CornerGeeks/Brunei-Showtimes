@@ -1,0 +1,182 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>
+			Movie Tickets</title>
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+		<meta content="Visual Basic .NET 7.1" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<script language="javascript" src="visJavaCommon.js"></script>
+		<LINK href="visStyles.css" type="text/css" rel="stylesheet">
+		<!-- visStylesUser.css must proceed visStyles.css, so to override the default styles if requested -->
+		<LINK href="visStylesUser.css" type="text/css" rel="stylesheet">
+	</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form name="Form1" method="post" action="visPrintShowTimes.aspx?visCinemaID=&amp;ReturnURL=visShowtimes.aspx%3fAspxAutoDetectCookieSupport%3d1" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwMzQ3Mjk5MzMPZBYEAgEPFgIeBFRleHQFDU1vdmllIFRpY2tldHNkAgMPZBYEZg8WBB4Dc3JjBSJJbWFnZXMvUHJpbnRhYmxlTGlzdGluZ3NIZWFkZXIuZ2lmHgVDbGFzcwUYSW1hZ2VQcmludExpc3RpbmdzSGVhZGVyZAIDDw8WBB4FV2lkdGgbAAAAAAAAhEABAAAAHgRfIVNCAoACZGRkcb0yRWx2TfOEEmM6rMH27BQH/nc=" />
+
+		    <table cellpadding=0 cellspacing=0 width=560 class="PrintShowTimesHeaderTable">
+		        <tr>
+		            <td valign="middle"><img src="Images/PrintableListingsHeader.gif" id="imgHeader" Class="ImagePrintListingsHeader" /></td>
+		            <td><table id="tblHeader" class="PrintShowTimesHeaderTable" border="0">
+	<tr>
+		<td colspan="2"><a href="visShowtimes.aspx?AspxAutoDetectCookieSupport=1"><img src="images/back_print.gif" id="imgBack" Class="ImageBack" border="0" /></a><a href="Javascript: supportedPrint();"><img src="images/PrintShowTimes.gif" id="imgPrint" Class="ImagePrintShowTimes" border="0" /></a></td>
+	</tr><tr>
+		<td><span class="PrintSelectionLabel">Cinema:</span></td><td><span class="PrintCinemaName">The Mall Cineplex </span></td>
+	</tr><tr>
+		<td colspan="2"><span class="PrintDateRange">Showtimes for, Sat 4 Jan - Wed 8 Jan</span></td>
+	</tr>
+</table></td>
+		        </tr>
+		        <tr>
+		            <td colspan=2></td>
+		        </tr>
+		    </table>
+			
+			<table id="tblShowTimes" class="PrintShowTimesTable" border="0" style="width:640px;">
+	<tr>
+		<td style="width:145px;"></td><td style="width:495px;"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">47 Ronin Blockbuster</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Daily</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:15PM, 2:30PM, 4:45PM, 7:00PM, 9:15PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr style="height:5px;">
+		<td class="PrintShowTimesSession" colspan="2">The following days at</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Sat 4 Jan</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:15PM, 2:30PM, 4:45PM, 7:00PM, 9:15PM, 11:30PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">Cinderella</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Daily</td><td class="PrintShowTimesSession" valign="top" colspan="1">5:35PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr style="height:5px;">
+		<td class="PrintShowTimesSession" colspan="2">The following days at</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Sat 4 Jan</td><td class="PrintShowTimesSession" valign="top" colspan="1">5:40PM, 11:50PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">Delivery Man Blockbuster</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Daily</td><td class="PrintShowTimesSession" valign="top" colspan="1">11:20AM, 1:25PM, 3:30PM, 5:10PM, 7:25PM, 9:30PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr style="height:5px;">
+		<td class="PrintShowTimesSession" colspan="2">The following days at</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Sat 4 Jan</td><td class="PrintShowTimesSession" valign="top" colspan="1">11:25AM, 1:30PM, 3:35PM, 5:05PM, 7:30PM, 9:35PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">Frozen</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Daily</td><td class="PrintShowTimesSession" valign="top" colspan="1">11:30AM, 1:40PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr style="height:5px;">
+		<td class="PrintShowTimesSession" colspan="2">The following days at</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Sat 4 Jan</td><td class="PrintShowTimesSession" valign="top" colspan="1">11:55AM, 2:00PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">Hobbit 2</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Daily</td><td class="PrintShowTimesSession" valign="top" colspan="1">11:30AM, 4:35PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">Make Me Shudder Blockbuster</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Daily</td><td class="PrintShowTimesSession" valign="top" colspan="1">2:30PM, 7:40PM, 9:45PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr style="height:5px;">
+		<td class="PrintShowTimesSession" colspan="2">The following days at</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Sat 4 Jan</td><td class="PrintShowTimesSession" valign="top" colspan="1">2:30PM, 7:40PM, 9:45PM, 11:40PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">Paranormal Activity: The Marked Ones Blockbuster</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Daily</td><td class="PrintShowTimesSession" valign="top" colspan="1">11:15AM, 1:00PM, 2:45PM, 4:30PM, 6:15PM, 8:00PM, 9:45PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr style="height:5px;">
+		<td class="PrintShowTimesSession" colspan="2">The following days at</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Sat 4 Jan</td><td class="PrintShowTimesSession" valign="top" colspan="1">11:15AM, 1:00PM, 2:45PM, 4:30PM, 6:15PM, 8:00PM, 9:45PM, 11:30PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">Police Story 2013 Blockbuster</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Daily</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:30PM, 2:45PM, 5:00PM, 7:15PM, 9:30PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr style="height:5px;">
+		<td class="PrintShowTimesSession" colspan="2">The following days at</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Sat 4 Jan</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:30PM, 2:45PM, 5:00PM, 7:15PM, 9:30PM, 11:45PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">Rumah Sewa RM50 Blockbuster</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Daily</td><td class="PrintShowTimesSession" valign="top" colspan="1">11:20AM, 1:00PM, 2:45PM, 4:30PM, 5:55PM, 7:30PM, 9:15PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr style="height:5px;">
+		<td class="PrintShowTimesSession" colspan="2">The following days at</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Sat 4 Jan</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:40PM, 2:25PM, 4:10PM, 5:55PM, 7:30PM, 9:15PM, 11:00PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">Secret Life of Walter Mitty Blockbuster</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Daily</td><td class="PrintShowTimesSession" valign="top" colspan="1">1:10PM, 3:45PM, 7:15PM, 9:25PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr style="height:5px;">
+		<td class="PrintShowTimesSession" colspan="2">The following days at</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Sat 4 Jan</td><td class="PrintShowTimesSession" valign="top" colspan="1">1:05PM, 4:05PM, 7:10PM, 9:20PM, 11:30PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">Tokan</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Daily</td><td class="PrintShowTimesSession" valign="top" colspan="1">11:20AM, 6:15PM, 8:00PM, 9:45PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr style="height:5px;">
+		<td class="PrintShowTimesSession" colspan="2">The following days at</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Sat 4 Jan</td><td class="PrintShowTimesSession" valign="top" colspan="1">11:15AM, 6:15PM, 10:45PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">Walking With Dinosaurs</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Daily</td><td class="PrintShowTimesSession" valign="top" colspan="1">3:20PM</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr style="height:5px;">
+		<td class="PrintShowTimesSession" colspan="2">The following days at</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">Sat 4 Jan</td><td class="PrintShowTimesSession" valign="top" colspan="1">3:15PM</td>
+	</tr>
+</table>
+			</form>
+	</body>
+</HTML>

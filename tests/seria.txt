@@ -1,0 +1,428 @@
+
+{
+   "title": "PSB Dualplex,Seria's Facebook Wall",
+   "link": "https:\/\/www.facebook.com\/",
+   "self": "https:\/\/www.facebook.com\/feeds\/page.php?format=json&id=279414305434229",
+   "updated": "2014-01-02T08:15:17-08:00",
+   "icon": "http:\/\/www.facebook.com\/favicon.ico",
+   "entries": [
+      {
+         "title": " Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For SUNDAY 0...",
+         "id": "0c9d9eecb85f5b5145e11a4643a0fe12",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/649848638390792",
+         "categories": [
+            
+         ],
+         "published": "2014-01-02T16:15:17+00:00",
+         "updated": "2014-01-02T16:15:17+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For SUNDAY 05\/01\/2014 Updated\u003Cbr \/> \u003Cbr \/> (1hr 25min)(R)\u003Cbr \/> Paranormal Activity: The Mark Ones :-\u003Cbr \/> 12:30hr,14:35hr,16:15hr,19:40hr,21:20hr\u003Cbr \/> \u003Cbr \/> (1hr 50min) (PG13)\u003Cbr \/> The Secret Life of Walter Mitty - 10:30hr,12:35hr,14:10hr,19:10hr,21:10hr\u003Cbr \/> \u003Cbr \/> (1hr 30min) (G)\u003Cbr \/> Walking with Dinosaurs 2D - 10:45hr,18:00hr\u003Cbr \/> \u003Cbr \/> (2hr 45min) (PG13)\u003Cbr \/> The Hobbit 2 (2D) - 16:10hr"
+      },
+      {
+         "title": " Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For SATURDAY...",
+         "id": "582163eeabd7d51fcce063b0e7c58476",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/649847728390883",
+         "categories": [
+            
+         ],
+         "published": "2014-01-02T16:13:07+00:00",
+         "updated": "2014-01-02T16:13:07+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For SATURDAY 04\/01\/2014 Updated\u003Cbr \/> \u003Cbr \/> (1hr 25min)(R)\u003Cbr \/> Paranormal Activity: The Mark Ones :-\u003Cbr \/> 10:45hr,12:30hr,14:15hr,17:40hr,19:20hr,21:10hr,23:10hr\u003Cbr \/> \u003Cbr \/> (1hr 50min) (PG13)\u003Cbr \/> The Secret Life of Walter Mitty - 12:10hr,17:10hr,19:10hr,21:00hr,23:00hr\u003Cbr \/> \u003Cbr \/> (1hr 30min) (G)\u003Cbr \/> Walking with Dinosaurs 2D - 10:30hr,16:00hr\u003Cbr \/> \u003Cbr \/> (2hr 45min) (PG13)\u003Cbr \/> The Hobbit 2 (2D) - 14:10hr"
+      },
+      {
+         "title": " Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For FRIDAY 0...",
+         "id": "234fb34771cf05cf9d181e97c3aaa29d",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/649846805057642",
+         "categories": [
+            
+         ],
+         "published": "2014-01-02T16:10:49+00:00",
+         "updated": "2014-01-02T16:10:49+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For FRIDAY 03\/01\/2014 Updated\u003Cbr \/> \u003Cbr \/> (1hr 25min)(R)\u003Cbr \/> Paranormal Activity: The Mark Ones :-\u003Cbr \/> 14:30hr,16:00hr,19:10hr,21:40hr,23:15hr.\u003Cbr \/> \u003Cbr \/> (1hr 50min) (PG13)\u003Cbr \/> The Secret Life of Walter Mitty - 17:40hr,19:40hr,23:00hr\u003Cbr \/> \u003Cbr \/> (1hr 30min) (G)\u003Cbr \/> Walking with Dinosaurs 2D - 14:15hr\u003Cbr \/> \u003Cbr \/> (2hr 45min) (PG13)\u003Cbr \/> The Hobbit 2 (2D) - 16:10hr"
+      },
+      {
+         "title": " Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For Thursday...",
+         "id": "b684d2e67ef2ec603af6823a36466e3b",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/649370921771897",
+         "categories": [
+            
+         ],
+         "published": "2014-01-01T17:25:19+00:00",
+         "updated": "2014-01-01T17:25:19+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For Thursday 02\/01\/2014 Updated\u003Cbr \/> \u003Cbr \/> (1hr 25min)(R)\u003Cbr \/> Paranormal Activity: The Mark Ones :-\u003Cbr \/> 10:45hr,12:30hr,17:50hr,19:30hr,21:15hr,23:10hr\u003Cbr \/> \u003Cbr \/> (1hr 50min) (PG13)\u003Cbr \/> The Secret Life of Walter Mitty - 12:10hr,14:10hr,19:10hr,21:10hr,23:00hr\u003Cbr \/> \u003Cbr \/> (1hr 30min) (G)\u003Cbr \/> Walking with Dinosaurs 2D - 10:30hr,17:10hr\u003Cbr \/> \u003Cbr \/> (2hr 45min) (PG13)\u003Cbr \/> The Hobbit 2 (2D) - 14:15hr"
+      },
+      {
+         "title": " ",
+         "id": "51850bbce8212065914dee2ddfe2f32d",
+         "alternate": "https:\/\/www.facebook.com\/photo.php?fbid=649063961802593&set=a.377380218970970.79540.279414305434229&type=1",
+         "categories": [
+            
+         ],
+         "published": "2014-01-01T03:22:16+00:00",
+         "updated": "2014-01-01T03:22:16+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "\u003Ca href=\"https:\/\/www.facebook.com\/photo.php?fbid=649063961802593&amp;set=a.377380218970970.79540.279414305434229&amp;type=1&amp;relevant_count=1\" id=\"\" title=\"\" target=\"\" onclick=\"\" style=\"\">\u003Cimg class=\"img\" src=\"https:\/\/fbcdn-photos-g-a.akamaihd.net\/hphotos-ak-prn1\/1544426_649063961802593_1950846052_s.jpg\" alt=\"\" \/>\u003C\/a>"
+      },
+      {
+         "title": " Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For TUESDAY...",
+         "id": "9b249e7384021c50421a57cdc84ac603",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/648344495207873",
+         "categories": [
+            
+         ],
+         "published": "2013-12-30T15:23:35+00:00",
+         "updated": "2013-12-30T15:23:35+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For TUESDAY 31\/12\/2013 Updated\u003Cbr \/> \u003Cbr \/> (1hr 50min) (PG13)\u003Cbr \/> The Secret Life of Walter Mitty - 11:00hr,19:10hr,21:10h,\u003Cbr \/> \u003Cbr \/> (1hr 30min) (G)\u003Cbr \/> Walking with Dinosaurs 3D - 10:45hr,17:30hr,19:00hr.\u003Cbr \/> \u003Cbr \/> (2hr 45min) (PG13)\u003Cbr \/> The Hobbit 2 (2D) - 13:00hr,14:30hr,20:45hr.\u003Cbr \/> \u003Cbr \/> (1hr 52min) (G)\u003Cbr \/> Frozen 2D - 12:30hr,17:00h"
+      },
+      {
+         "title": " Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For WEDNESDA...",
+         "id": "9ee162ca1bedde8ea393dd03127823f8",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/647895898586066",
+         "categories": [
+            
+         ],
+         "published": "2013-12-29T14:40:45+00:00",
+         "updated": "2013-12-29T14:40:45+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For WEDNESDAY 01\/01\/2014 Updated\u003Cbr \/> \u003Cbr \/> (1hr 50min) (PG13)\u003Cbr \/> The Secret Life of Walter Mitty - 10:30hr,14:30hr,15:30hr,19:30hr,21:10hr.\u003Cbr \/> \u003Cbr \/> (1hr 30min) (G)\u003Cbr \/> Walking with Dinosaurs 3D - 10:45hr,19:30hr.\u003Cbr \/> \u003Cbr \/> (2hr 45min) (PG13)\u003Cbr \/> The Hobbit 2 (2D) - 12:30hr,16:30hr,21:30hr.\u003Cbr \/> \u003Cbr \/> (1hr 52min) (G)\u003Cbr \/> Frozen 2D - 12:30hr,17:30hr."
+      },
+      {
+         "title": " Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For MONDAY 3...",
+         "id": "c6f040651f5789d65311f5c31e7dac63",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/647893475252975",
+         "categories": [
+            
+         ],
+         "published": "2013-12-29T14:35:32+00:00",
+         "updated": "2013-12-29T14:35:32+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For MONDAY 30\/12\/2013 Updated\u003Cbr \/> \u003Cbr \/> (1hr 50min) (PG13)\u003Cbr \/> The Secret Life of Walter Mitty - 12:30hr,13:30hr,17:30hr,19:30hr,21:30hr.\u003Cbr \/> \u003Cbr \/> (1hr 30min) (G)\u003Cbr \/> Walking with Dinosaurs 3D - 15:30hr,19:10hr.\u003Cbr \/> \u003Cbr \/> (2hr 45min) (PG13)\u003Cbr \/> The Hobbit 2 (2D) - 10:30hr,14:30hr,21:00hr.\u003Cbr \/> \u003Cbr \/> (1hr 52min) (G)\u003Cbr \/> Frozen 2D - 10:30hr,17:10hr."
+      },
+      {
+         "title": " Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For SUNDAY 2...",
+         "id": "5f39ad848265624bdd7b46d5e20027f5",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/645952758780380",
+         "categories": [
+            
+         ],
+         "published": "2013-12-26T07:38:22+00:00",
+         "updated": "2013-12-26T07:38:22+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For SUNDAY 29\/12\/2013 Updated\u003Cbr \/> \u003Cbr \/> (1hr 50min) (PG13)\u003Cbr \/> The Secret Life of Walter Mitty - 10:45hr,14:30hr,17:10hr,19:10hr,21:20hr.\u003Cbr \/> \u003Cbr \/> (1hr 30min) (G)\u003Cbr \/> Walking with Dinosaurs 3D - 12:45hr,15:30hr,19:30hr.\u003Cbr \/> \u003Cbr \/> (2hr 45min) (PG13)\u003Cbr \/> The Hobbit 2 (2D) - 12:30hr,16:30hr,21:10hr.\u003Cbr \/> \u003Cbr \/> (1hr 52min) (G)\u003Cbr \/> Frozen 2D - 10:30hr."
+      },
+      {
+         "title": " Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For SATURDAY...",
+         "id": "eb52785ede2b47c729c359a9c4114a92",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/645952155447107",
+         "categories": [
+            
+         ],
+         "published": "2013-12-26T07:35:30+00:00",
+         "updated": "2013-12-26T07:35:30+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For SATURDAY 28\/12\/2013 Updated\u003Cbr \/> \u003Cbr \/> (1hr 50min) (PG13)\u003Cbr \/> The Secret Life of Walter Mitty - 10:45hr,14:10hr,17:20hr,19:10hr,21:20hr,23:20hr.\u003Cbr \/> \u003Cbr \/> (1hr 30min) (G)\u003Cbr \/> Walking with Dinosaurs 3D - 10:30hr,15:40hr,21:10hr.\u003Cbr \/> \u003Cbr \/> (2hr 45min) (PG13)\u003Cbr \/> The Hobbit 2 (2D) - 12:45hr,16:10hr,22:50hr.\u003Cbr \/> \u003Cbr \/> (1hr 52min) (G)\u003Cbr \/> Frozen 2D - 12:10hr,19:20hr."
+      },
+      {
+         "title": " Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For FRIDAY 2...",
+         "id": "16196d7849374cf0facc46a9278c822e",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/645951292113860",
+         "categories": [
+            
+         ],
+         "published": "2013-12-26T07:32:28+00:00",
+         "updated": "2013-12-26T07:32:28+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For FRIDAY 27\/12\/2013 Updated\u003Cbr \/> \u003Cbr \/> (1hr 50min) (PG13)\u003Cbr \/> The Secret Life of Walter Mitty - 14:30hr,19:10hr,21:10hr,23:10hr.\u003Cbr \/> \u003Cbr \/> (1hr 30min) (G)\u003Cbr \/> Walking with Dinosaurs 3D - 14:15hr,18:40hr,20:20hr.\u003Cbr \/> \u003Cbr \/> (2hr 45min) (PG13)\u003Cbr \/> The Hobbit 2 (2D) - 16:00hr,22:00hr.\u003Cbr \/> \u003Cbr \/> (1hr 52min) (G)\u003Cbr \/> Frozen 2D - 16:30hr."
+      },
+      {
+         "title": " Coming Soon January 2014",
+         "id": "5f2dbdc9a02269235f0a08362e67bb36",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/645861065456216",
+         "categories": [
+            
+         ],
+         "published": "2013-12-26T03:04:49+00:00",
+         "updated": "2013-12-26T03:04:49+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Coming Soon January 2014\u003Cbr\/>\u003Cbr\/>\u003Ca href=\"http:\/\/www.facebook.com\/l.php?u=http\u00253A\u00252F\u00252Fyoutu.be\u00252Fu5swWIaEZ6w&amp;h=IAQGEZSUO&amp;s=1\" id=\"\" title=\"\" target=\"\" onclick=\"LinkshimAsyncLink.referrer_log(this, &quot;http:\\\/\\\/youtu.be\\\/u5swWIaEZ6w&quot;, &quot;\\\/si\\\/ajax\\\/l\\\/render_linkshim_log\\\/?u=http\\u00253A\\u00252F\\u00252Fyoutu.be\\u00252Fu5swWIaEZ6w&amp;h=IAQGEZSUO&amp;render_verification=0&amp;enc&quot;);\" style=\"\" rel=\"nofollow\" onmouseover=\"LinkshimAsyncLink.swap(this, &quot;http:\\\/\\\/youtu.be\\\/u5swWIaEZ6w&quot;);\">\u003Cimg class=\"img\" src=\"https:\/\/fbexternal-a.akamaihd.net\/safe_image.php?d=AQDV6PkOogjR1-Yp&amp;w=130&amp;h=130&amp;url=http\u00253A\u00252F\u00252Fi1.ytimg.com\u00252Fvi\u00252Fu5swWIaEZ6w\u00252Fmaxresdefault.jpg\" alt=\"\" style=\"height:90px;\" \/>\u003C\/a>\u003Cbr\/>\u003Ca href=\"http:\/\/www.facebook.com\/l.php?u=http\u00253A\u00252F\u00252Fyoutu.be\u00252Fu5swWIaEZ6w&amp;h=KAQGEBfjv&amp;s=1\" id=\"\" target=\"_blank\" onclick=\"LinkshimAsyncLink.referrer_log(this, &quot;http:\\\/\\\/youtu.be\\\/u5swWIaEZ6w&quot;, &quot;\\\/si\\\/ajax\\\/l\\\/render_linkshim_log\\\/?u=http\\u00253A\\u00252F\\u00252Fyoutu.be\\u00252Fu5swWIaEZ6w&amp;h=KAQGEBfjv&amp;render_verification=0&amp;enc&quot;);return StreamShareVideo.clickTitle(&quot;645861065456216&quot;, &quot;feed&quot;, event);\" style=\"\" rel=\"nofollow\" onmouseover=\"LinkshimAsyncLink.swap(this, &quot;http:\\\/\\\/youtu.be\\\/u5swWIaEZ6w&quot;);\">PARANORMAL ACTIVITY: THE MARKED ONES TV SPOT\u003C\/a>\u003Cbr\/>IN CINEMAS 2 JANUARY 2014"
+      },
+      {
+         "title": " Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For THURSDAY...",
+         "id": "9752cf05979510ebe2c2881eb48d9819",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/645486548827001",
+         "categories": [
+            
+         ],
+         "published": "2013-12-25T16:15:10+00:00",
+         "updated": "2013-12-25T16:15:10+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For THURSDAY 26\/12\/2013 Updated\u003Cbr \/> \u003Cbr \/> (1hr 50min) (PG13)\u003Cbr \/> The Secret Life of Walter Mitty - 12:45hr,15:10hr,17:00hr,21:10hr,23:10hr.\u003Cbr \/> \u003Cbr \/> (1hr 30min) (G)\u003Cbr \/> Walking with Dinosaurs 3D - 10:30hr,15:00hr,20:10hr.\u003Cbr \/> \u003Cbr \/> (2hr 45min) (PG13)\u003Cbr \/> The Hobbit 2 (2D) - 12:10hr,17:10hr,22:00hr.\u003Cbr \/> \u003Cbr \/> (1hr 52min) (G)\u003Cbr \/> Frozen 2D - 10:45hr,19:10hr."
+      },
+      {
+         "title": " ",
+         "id": "a84e117702dffd4e43830fd58370d730",
+         "alternate": "https:\/\/www.facebook.com\/photo.php?fbid=644881082220881&set=a.377380218970970.79540.279414305434229&type=1",
+         "categories": [
+            
+         ],
+         "published": "2013-12-24T06:08:54+00:00",
+         "updated": "2013-12-24T06:08:54+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "\u003Ca href=\"https:\/\/www.facebook.com\/photo.php?fbid=644881082220881&amp;set=a.377380218970970.79540.279414305434229&amp;type=1&amp;relevant_count=1\" id=\"\" title=\"\" target=\"\" onclick=\"\" style=\"\">\u003Cimg class=\"img\" src=\"https:\/\/fbcdn-photos-c-a.akamaihd.net\/hphotos-ak-frc1\/734497_644881082220881_192016383_s.jpg\" alt=\"\" \/>\u003C\/a>"
+      },
+      {
+         "title": " Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For WEDNESDA...",
+         "id": "b1ef2ee1ba22149f5d99e23285ce4876",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/644073265634996",
+         "categories": [
+            
+         ],
+         "published": "2013-12-22T16:17:07+00:00",
+         "updated": "2013-12-22T16:17:07+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For WEDNESDAY 25\/12\/2013 Updated\u003Cbr \/> \u003Cbr \/> (1hr 30min) (G)\u003Cbr \/> Walking with Dinosaurs 3D - 10:30hr,14:10hr,16:40hr,19:00hr,20:40hr.\u003Cbr \/> \u003Cbr \/> (2hr 45min) (PG13)\u003Cbr \/> The Hobbit 2 (2D) - 10:45hr,13:40hr,18:40hr,21:35hr.\u003Cbr \/> \u003Cbr \/> (1hr 52min) (G)\u003Cbr \/> Frozen 2D - 12:10hr,17:00hr."
+      },
+      {
+         "title": " Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For TUESDAY...",
+         "id": "7d57d499061087c167928cd49f89197b",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/644072785635044",
+         "categories": [
+            
+         ],
+         "published": "2013-12-22T16:16:14+00:00",
+         "updated": "2013-12-22T16:16:14+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For TUESDAY 24\/12\/2013 Updated\u003Cbr \/> \u003Cbr \/> (1hr 30min) (G)\u003Cbr \/> Walking with Dinosaurs 3D - 10:30hr,14:10hr,16:40hr,21:10hr.\u003Cbr \/> \u003Cbr \/> (2hr 45min) (PG13)\u003Cbr \/> The Hobbit 2 (2D) - 10:45hr,13:40hr,18:40hr,21:35hr.\u003Cbr \/> \u003Cbr \/> (1hr 52min) (G)\u003Cbr \/> Frozen 2D - 12:10hr,17:00hr,19:00hr."
+      },
+      {
+         "title": " Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For MONDAY 2...",
+         "id": "496dd6e38afb8e30bad850afe87e0d0c",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/644071738968482",
+         "categories": [
+            
+         ],
+         "published": "2013-12-22T16:14:00+00:00",
+         "updated": "2013-12-22T16:14:00+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For MONDAY 23\/12\/2013 Updated\u003Cbr \/> \u003Cbr \/> (1hr 30min) (G)\u003Cbr \/> Walking with Dinosaurs 3D - 10:30hr,14:10hr,16:40hr,19:00hr,20:40hr.\u003Cbr \/> \u003Cbr \/> (2hr 45min) (PG13)\u003Cbr \/> The Hobbit 2 (2D) - 10:45hr,13:40hr,18:40hr,21:35hr.\u003Cbr \/> \u003Cbr \/> (1hr 52min) (G)\u003Cbr \/> Frozen 2D - 12:10hr,17:00hr."
+      },
+      {
+         "title": " Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For SUNDAY 2...",
+         "id": "84620b439dc23885167e91727933cc40",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/643109875731335",
+         "categories": [
+            
+         ],
+         "published": "2013-12-20T07:08:02+00:00",
+         "updated": "2013-12-20T07:08:02+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For SUNDAY 22\/12\/2013 Updated\u003Cbr \/> \u003Cbr \/> (1hr 30min) (G)\u003Cbr \/> Walking with Dinosaurs 3D - 10:30hr,14:10hr,15:50hr,21:40hr.\u003Cbr \/> \u003Cbr \/> (2hr 45min) (PG13)\u003Cbr \/> The Hobbit 2 (3D) - 19:30hr.\u003Cbr \/> The Hobbit 2 (2D) - 10:30hr,13:30hr,16:30hr,22:30hr.\u003Cbr \/> \u003Cbr \/> (1hr 52min) (G)\u003Cbr \/> Frozen 2D - 12:10hr,17:40hr,19:40hr."
+      },
+      {
+         "title": " Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For SATURDAY...",
+         "id": "1493856c5e1c01227cf3bd13ffe55806",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/642783959097260",
+         "categories": [
+            
+         ],
+         "published": "2013-12-19T12:53:49+00:00",
+         "updated": "2013-12-19T12:53:49+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For SATURDAY 21\/12\/2013 Updated\u003Cbr \/> \u003Cbr \/> (1hr 30min) (G)\u003Cbr \/> Walking with Dinosaurs 3D - 10:30hr,12:30hr,14:10hr,15:10hr,19:00hr,22:40hr.\u003Cbr \/> \u003Cbr \/> (2hr 45min) (PG13)\u003Cbr \/> The Hobbit 2 (3D) - 20:00hr.\u003Cbr \/> The Hobbit 2 (2D) - 12:10hr,15:50hr,17:00hr,23:00hr.\u003Cbr \/> \u003Cbr \/> (1hr 52min) (G)\u003Cbr \/> Frozen 2D - 10:30hr,20:45hr."
+      },
+      {
+         "title": " Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For FRIDAY 2...",
+         "id": "02474044689d1bbcdedf6761a4732c70",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/642783649097291",
+         "categories": [
+            
+         ],
+         "published": "2013-12-19T12:52:24+00:00",
+         "updated": "2013-12-19T12:52:24+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For FRIDAY 20\/12\/2013 Updated\u003Cbr \/> \u003Cbr \/> (1hr 30min) (G)\u003Cbr \/> Walking with Dinosaurs 3D - 14:10hr,15:50hr,19:30hr,23:10hr.\u003Cbr \/> \u003Cbr \/> (2hr 45min) (PG13)\u003Cbr \/> The Hobbit 2 (3D) - 20:10hr.\u003Cbr \/> The Hobbit 2 (2D) - 14:15hr,17:10hr,23:10hr.\u003Cbr \/> \u003Cbr \/> (1hr 52min) (G)\u003Cbr \/> Frozen 2D - 17:30hr,21:10hr."
+      },
+      {
+         "title": " ",
+         "id": "bf7df4755ff0d995d306e4023312584f",
+         "alternate": "https:\/\/www.facebook.com\/photo.php?fbid=642431539132502&set=a.377380218970970.79540.279414305434229&type=1",
+         "categories": [
+            
+         ],
+         "published": "2013-12-18T15:12:11+00:00",
+         "updated": "2013-12-18T15:12:11+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "\u003Ca href=\"https:\/\/www.facebook.com\/photo.php?fbid=642431539132502&amp;set=a.377380218970970.79540.279414305434229&amp;type=1&amp;relevant_count=1\" id=\"\" title=\"\" target=\"\" onclick=\"\" style=\"\">\u003Cimg class=\"img\" src=\"https:\/\/fbcdn-photos-d-a.akamaihd.net\/hphotos-ak-frc1\/1003566_642431539132502_139655595_s.png\" alt=\"\" \/>\u003C\/a>"
+      },
+      {
+         "title": " Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For THURSDAY...",
+         "id": "0ad5c1432eef9c15f2e016824d59e9a5",
+         "alternate": "http:\/\/www.facebook.com\/PSBdualplex\/posts\/642424425799880",
+         "categories": [
+            
+         ],
+         "published": "2013-12-18T14:53:35+00:00",
+         "updated": "2013-12-18T14:53:35+00:00",
+         "author": {
+            "name": "PSB Dualplex,Seria"
+         },
+         "verb": "",
+         "target": "",
+         "objects": "",
+         "comments": "",
+         "likes": "",
+         "content": "Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For THURSDAY 19\/12\/2013 Updated\u003Cbr \/> \u003Cbr \/> (1hr 30min) (G)\u003Cbr \/> Walking with Dinosaurs 3D - 10:45hr,12:30hr,17:10hr,18:40hr,21:00hr,22:40hr.\u003Cbr \/> \u003Cbr \/> (2hr 45min) (PG13)\u003Cbr \/> The Hobbit 2 (3D) - 20:30hr.\u003Cbr \/> The Hobbit 2 (2D) - 12:30hr,14:10hr,15:30hr,23:30hr.\u003Cbr \/> \u003Cbr \/> (1hr 52min) (G)\u003Cbr \/> Frozen 2D - 10:30hr,19:00hr."
+      }
+   ]
+}

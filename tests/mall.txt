@@ -1,0 +1,365 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+    <head><title>
+	Movie Tickets
+</title>
+        <script language="javascript" src="visJavaCommon.js"></script>
+		<link href="visStyles.css" type="text/css" rel="stylesheet" />
+		<!-- visStylesUser.css must proceed visStyles.css, so to override the default styles if requested --><link href="visStylesUser.css" type="text/css" rel="stylesheet" /></head>
+    <body class="FormStandard">
+        <form name="Form1" method="post" action="visShowtimes.aspx" id="Form1">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwMTI5NjA1MzkPZBYEAgEPZBYCZg9kFgJmDxYCHgRUZXh0BQ1Nb3ZpZSBUaWNrZXRzZAIDD2QWBGYPZBYMZg9kFgJmD2QWAgIBDxYCHgdWaXNpYmxlaGQCAg9kFgRmD2QWBAIBDw8WAh8ABQZEYXRlOiBkZAIDDxBkDxYFZgIBAgICAwIEFgUQBQlTYXQgNCBKYW4FCDEvNC8yMDE0ZxAFCVN1biA1IEphbgUIMS81LzIwMTRnEAUJTW9uIDYgSmFuBQgxLzYvMjAxNGcQBQlUdWUgNyBKYW4FCDEvNy8yMDE0ZxAFCVdlZCA4IEphbgUIMS84LzIwMTRnZGQCAQ9kFgICAQ8WAh4EaHJlZgU/dmlzUHJpbnRTaG93VGltZXMuYXNweD92aXNDaW5lbWFJRD0mUmV0dXJuVVJMPXZpc1Nob3d0aW1lcy5hc3B4FgICAQ8PFgIfAAUbUHJpbnRlciBmcmllbmRseSBzaG93IHRpbWVzZGQCBA9kFgJmD2QWBAIBDxYCHgVzdHlsZQUPRElTUExBWTppbmxpbmU7FgQCAQ8QDxYCHwAFDkxpc3QgYnkgQ2luZW1hZGRkZAIDDxAPFgIfAAUNTGlzdCBieSBNb3ZpZWRkZGQCAw8WAh8DBQ1ESVNQTEFZOm5vbmU7FgQCAQ8PFgIfAAUIQ2luZW1hOiBkZAIDDxBkZBYAZAIFD2QWAmYPZBYCAgEPDxYCHwAFclJlc2VydmVkIHNlYXRpbmcgc2hvdyB0aW1lcyBhcmUgZGlzcGxheWVkIGxpa2UgdGhpczogPHNwYW4gY2xhc3M9J1Nob3d0aW1lc1Nlc3Npb25BbGxvY2F0ZWRFeGFtcGxlJz4xMjowMHBtPC9zcGFuPmRkAgYPZBYCZg9kFgICAQ8PFgIfAAVwT3BlbiBzZWF0aW5nIHNob3cgdGltZXMgYXJlIGRpc3BsYXllZCBsaWtlIHRoaXM6IDxzcGFuIGNsYXNzPSdTaG93dGltZXNTZXNzaW9uVW5hbGxvY2F0ZWRFeGFtcGxlJz4xMjowMHBtPC9zcGFuPmRkAgcPZBYCZg9kFgICAQ8PFgIfAAVoU29sZCBvdXQgc2hvdyB0aW1lcyBhcmUgZGlzcGxheWVkIGxpa2UgdGhpczogPHNwYW4gY2xhc3M9J1Nob3d0aW1lc1Nlc3Npb25Tb2xkT3V0RXhhbXBsZSc+MTI6MDBwbTwvc3Bhbj5kZAIBDw8WBB4IQ3NzQ2xhc3MFDlNob3d0aW1lc1RhYmxlHgRfIVNCAgJkZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAwUPcmFkTGlzdEJ5Q2luZW1hBQ5yYWRMaXN0QnlNb3ZpZQUOcmFkTGlzdEJ5TW92aWXNK6FKK8sM/bum5RV3d9XOlz44sA==" />
+
+<script type="text/javascript">
+<!--
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+// -->
+</script>
+
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWCgKQiICAAQK9uKa2CAKL6eCpCgKG+cjUCgKRydCuCQKM2bjqCQLvgPnYBQLM8PfkBgLt+KG4BQKCndOhDl0PPc90wss5PxVkl9ZwVHePQNKl" />
+            
+
+
+<TABLE border="0" cellspacing="0" cellpadding="0" width="100%">
+	<TR>
+		<TD align="middle">
+
+
+			<TABLE border="0" cellspacing="0" cellpadding="0" width="754">
+				<TR style="height:165px;">
+					<TD colspan="2"><IMG src="Images/TopFrame.gif" width="900" height="143" border="0" style="position:absolute;top:0px;"><div id="ButtonLayer1" style="position:relative; top:18px; left:161px; width:300px; height:auto; overflow: visible; visibility: inherit;"></div></TD>
+				</TR>
+						
+				<TR>
+			  <TD width="161" valign="top"><IMG src="Images/LeftFrame.gif" width="161" height="312" border="0">
+						<div id="ButtonLayer2" style="position:relative; top:-285px; left:0px; width:161px; height:auto; overflow: visible; visibility: inherit;">
+							<A href="visShowTimes.aspx" border="0"><IMG src="Images/Button_BuyTickets.gif" border="0" width="153" height="24"></A>
+							<br /><A href="visMovies.aspx?visMode=ComingSoon" border="0"><IMG src="Images/Button_ComingSoon.gif" border="0" width="153" height="24"></A>
+							<br /><A id="lnkTerms" class="StandardLink" href="javascript:openWindow('visTerms.aspx',500,580)"><IMG src="Images/Button_Terms.gif" border="0" width="153" height="24"></A>
+                            <br /><a href="http://www.themallcineplex.com/pricing.php" target="_blank"><img src="http://202.152.87.123/images/pricing.gif" border="0" width="153" height="24"></A>
+                            <br /><a href="http://www.themallcineplex.com/seating.php" target="_blank"><img src="http://202.152.87.123/images/seating.gif" border="0" width="153" height="24"></A>
+                            <br /><a href="http://www.themallcineplex.com/about.php" target="_blank"><img src="http://202.152.87.123/images/about.gif" border="0" width="153" height="24"></A>
+                            <br /><a href="http://www.themallcineplex.com/seating.php" target="_blank"><img src="http://202.152.87.123/images/seating.gif" border="0" width="153" height="24"></A>
+                            <br /><a href="http://www.themallcineplex.com/advertising.php" target="_blank"><img src="http://202.152.87.123/images/ad.gif" border="0" width="153" height="24"></A>
+                            <br /><a href="http://www.themallcineplex.com/eta.php" target="_blank"><img src="http://202.152.87.123/images/eta.gif" border="0" width="153" height="24"></A>
+							
+							<br /><A href="visLtyHome.aspx" border="0"><IMG src="Images/Button_Members.gif" border="0" width="153" height="24"></A>
+							
+                            <IMG src="Images/TixCollect.gif" width="161" height="378" border="0">
+						<div id="ButtonLayer3" style="position:relative; top:0px; left:0px; width:161px; height:auto ; overflow: visible; visibility: inherit;"></div>
+							
+							<br />
+						</div>
+                        </TD>
+                       		<TD width="593" valign="top">
+						<TABLE border="0" cellspacing="0" cellpadding="0" width="590px" bgcolor="#FFFFFF">
+							<TR><TD colspan="3" align="middle"><IMG src="Images/Header_MovieInfo.gif" width="590" height="20" border="0" class="FormStandard"></TD></TR>
+                            <TR><TD colspan="3" height="5"></TD></TR>
+							<TR>
+								<TD colspan="3" align="middle">
+									<TABLE border="0" cellspacing="0" cellpadding="0" width="590px">
+										<TR>
+											<TD colspan="3" align="middle" valign="top">
+                                                  
+                                            
+<table id="tblHeader" class="ShowtimesHeaderTable" cellspacing="0" cellpadding="0" width="580">
+	<tr>
+		<td colspan="2" align="center">
+						
+					</td>
+	</tr>
+	<tr style="HEIGHT:5px">
+		<td colspan="2"></td>
+	</tr>
+	<tr>
+		<td width="340" valign="bottom">
+					    <table cellpadding="0" cellspacing="0">
+					        <tr>
+					            <td width="75">
+					                <span id="lblFilterDate" class="ShowtimesHeaderText">Date: </span>
+					            </td>
+					            <td width="265">
+					                <select name="ddlFilterDate" onchange="javascript:setTimeout('__doPostBack(\'ddlFilterDate\',\'\')', 0)" language="javascript" id="ddlFilterDate" class="ShowtimesFilterDropDownList">
+			<option selected="selected" value="1/4/2014">Sat 4 Jan</option>
+			<option value="1/5/2014">Sun 5 Jan</option>
+			<option value="1/6/2014">Mon 6 Jan</option>
+			<option value="1/7/2014">Tue 7 Jan</option>
+			<option value="1/8/2014">Wed 8 Jan</option>
+
+		</select>
+					            </td>
+					        </tr>
+					    </table>
+					</td>
+		<td width="240" align="right">
+						<a href="visPrintShowTimes.aspx?visCinemaID=&ReturnURL=visShowtimes.aspx" id="lnkPrinterFriendly" class="PrinterLink">
+							<span id="lblPrinterFriendly">Printer friendly show times</span><img id="imgPrinterFriendly" border="0" src="images/printerfriendly.gif"></a>
+					</td>
+	</tr>
+	<tr height="5px">
+		<td colspan="2"></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+				        <div id="divOptSearchBy" style="DISPLAY:inline;">
+				            <span class="ShowtimesRadioListBy"><input id="radListByCinema" type="radio" name="radListBy" value="radListByCinema" checked="checked" /><label for="radListByCinema">List by Cinema</label></span>&nbsp;
+						    <span class="ShowtimesRadioListBy"><input id="radListByMovie" type="radio" name="radListBy" value="radListByMovie" onclick="javascript:setTimeout('__doPostBack(\'radListByMovie\',\'\')', 0)" language="javascript" /><label for="radListByMovie">List by Movie</label></span>
+				        </div>
+				        <div id="divFilterCinema" style="DISPLAY:none;">
+				            <table cellpadding="0" cellspacing="0">
+				                <tr>
+				                    <td width="75"><span id="lblFilterCinema" class="ShowtimesHeaderText">Cinema: </span></td>
+				                    <td width="265"><select name="ddlFilterCinema" onchange="javascript:setTimeout('__doPostBack(\'ddlFilterCinema\',\'\')', 0)" language="javascript" id="ddlFilterCinema" class="ShowtimesFilterDropDownList">
+
+		</select></td>
+				                </tr>
+				            </table>
+				        </div>
+				    </td>
+	</tr>
+	<tr>
+		<td colspan="2">
+				        
+				    </td>
+	</tr>
+	<tr>
+		<td colspan="2">
+				        
+				    </td>
+	</tr>
+	<tr>
+		<td colspan="2">
+				        <span id="lblSoldOutSessions" class="ShowtimesOtherText">Sold out show times are displayed like this: <span class='ShowtimesSessionSoldOutExample'>12:00pm</span></span>
+				    </td>
+	</tr>
+	<tr>
+		<td colspan="2">
+				        <span id="lblFeaturedSessions" class="ShowtimesOtherText"></span>
+				    </td>
+	</tr>
+	<tr style="HEIGHT:5px">
+		<td colspan="2"></td>
+	</tr>
+</table>
+
+			<table id="tblMovieShowtimes" class="ShowtimesTable" cellspacing="0" cellpadding="0" border="0" style="width:580px;border-collapse:collapse;">
+	<tr>
+		<td style="width:5px;"></td><td style="width:96px;"></td><td style="width:120px;"></td><td style="width:349px;"></td><td style="width:5px;"></td>
+	</tr><tr class="ShowtimesCinemaRow" valign="middle">
+		<td colspan="1"></td><td colspan="3"><span class="ShowtimesCinemaName">The Mall Cineplex</span></td><td colspan="1"></td>
+	</tr><tr class="ShowtimesSummaryRow">
+		<td colspan="5"><table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+			<tr>
+				<td style="width:5px;"></td><td style="width:250px;"></td><td style="width:320px;"></td><td style="width:5px;"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><a class="ShowtimesMovieLink" href="visMovieInfo.aspx?MovieName=47+Ronin+Blockbuster&amp;CinemaID=1001">47 Ronin Blockbuster</a></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><span class="ShowtimesMovieOtherText">Running Time: 109 mins</span></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="1"></td><td align="right" colspan="1"><span> </span><a id="32367" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32367">12:15PM</a><span> </span><a id="32339" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32339">2:30PM</a><span> </span><a id="32340" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32340">4:45PM</a><span> </span><a id="32341" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32341">7:00PM</a><span> </span><a id="32365" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32365">9:15PM</a><span> </span><a id="32366" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32366">11:30PM</a></td><td colspan="1"></td>
+			</tr><tr class="ShowtimesAestheticRow">
+				<td colspan="4"></td>
+			</tr>
+		</table></td>
+	</tr><tr class="ShowtimesSummaryRowAlt">
+		<td colspan="5"><table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+			<tr>
+				<td style="width:5px;"></td><td style="width:250px;"></td><td style="width:320px;"></td><td style="width:5px;"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><a class="ShowtimesMovieLink" href="visMovieInfo.aspx?MovieName=Cinderella&amp;CinemaID=1001">Cinderella</a></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><span class="ShowtimesMovieOtherText">Running Time: 86 mins</span></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="1"></td><td align="right" colspan="1"><span> </span><a id="32391" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32391">5:40PM</a><span> </span><a id="32429" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32429">11:50PM</a></td><td colspan="1"></td>
+			</tr><tr class="ShowtimesAestheticRowAlt">
+				<td colspan="4"></td>
+			</tr>
+		</table></td>
+	</tr><tr class="ShowtimesSummaryRow">
+		<td colspan="5"><table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+			<tr>
+				<td style="width:5px;"></td><td style="width:250px;"></td><td style="width:320px;"></td><td style="width:5px;"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><a class="ShowtimesMovieLink" href="visMovieInfo.aspx?MovieName=Delivery+Man+Blockbuster&amp;CinemaID=1001">Delivery Man Blockbuster</a></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><span class="ShowtimesMovieOtherText">Running Time: 102 mins</span></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="1"></td><td align="right" colspan="1"><span> </span><a id="32395" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32395">11:25AM</a><span> </span><a id="32389" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32389">1:30PM</a><span> </span><a id="32390" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32390">3:35PM</a><span> </span><a id="32415" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32415">5:05PM</a><span> </span><a id="32392" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32392">7:30PM</a><span> </span><a id="32393" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32393">9:35PM</a></td><td colspan="1"></td>
+			</tr><tr class="ShowtimesAestheticRow">
+				<td colspan="4"></td>
+			</tr>
+		</table></td>
+	</tr><tr class="ShowtimesSummaryRowAlt">
+		<td colspan="5"><table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+			<tr>
+				<td style="width:5px;"></td><td style="width:250px;"></td><td style="width:320px;"></td><td style="width:5px;"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><a class="ShowtimesMovieLink" href="visMovieInfo.aspx?MovieName=Frozen&amp;CinemaID=1001">Frozen</a></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><span class="ShowtimesMovieOtherText">Running Time: 105 mins</span></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="1"></td><td align="right" colspan="1"><span> </span><a id="32435" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32435">11:55AM</a><span> </span><a id="32423" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32423">2:00PM</a></td><td colspan="1"></td>
+			</tr><tr class="ShowtimesAestheticRowAlt">
+				<td colspan="4"></td>
+			</tr>
+		</table></td>
+	</tr><tr class="ShowtimesSummaryRow">
+		<td colspan="5"><table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+			<tr>
+				<td style="width:5px;"></td><td style="width:250px;"></td><td style="width:320px;"></td><td style="width:5px;"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><a class="ShowtimesMovieLink" href="visMovieInfo.aspx?MovieName=Hobbit+2&amp;CinemaID=1001">Hobbit 2</a></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><span class="ShowtimesMovieOtherText">Running Time: 153 mins</span></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="1"></td><td align="right" colspan="1"><span> </span><a id="32431" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32431">11:30AM</a><span> </span><a id="32353" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32353">4:35PM</a></td><td colspan="1"></td>
+			</tr><tr class="ShowtimesAestheticRow">
+				<td colspan="4"></td>
+			</tr>
+		</table></td>
+	</tr><tr class="ShowtimesSummaryRowAlt">
+		<td colspan="5"><table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+			<tr>
+				<td style="width:5px;"></td><td style="width:250px;"></td><td style="width:320px;"></td><td style="width:5px;"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><a class="ShowtimesMovieLink" href="visMovieInfo.aspx?MovieName=Make+Me+Shudder+Blockbuster&amp;CinemaID=1001">Make Me Shudder Blockbuster</a></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><span class="ShowtimesMovieOtherText">Running Time: 103 mins</span></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="1"></td><td align="right" colspan="1"><span> </span><a id="32414" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32414">2:30PM</a><span> </span><a id="32354" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32354">7:40PM</a><span> </span><a id="32417" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32417">9:45PM</a><span> </span><a id="32418" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32418">11:40PM</a></td><td colspan="1"></td>
+			</tr><tr class="ShowtimesAestheticRowAlt">
+				<td colspan="4"></td>
+			</tr>
+		</table></td>
+	</tr><tr class="ShowtimesSummaryRow">
+		<td colspan="5"><table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+			<tr>
+				<td style="width:5px;"></td><td style="width:250px;"></td><td style="width:320px;"></td><td style="width:5px;"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><a class="ShowtimesMovieLink" href="visMovieInfo.aspx?MovieName=Paranormal+Activity%3a+The+Marked+Ones+Blockbuster&amp;CinemaID=1001">Paranormal Activity: The Marked Ones Blockbuster</a></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><span class="ShowtimesMovieOtherText">Running Time: 80 mins</span></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="1"></td><td align="right" colspan="1"><span> </span><a id="32344" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32344">11:15AM</a><span> </span><a id="32338" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32338">1:00PM</a><span> </span><a id="32352" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32352">2:45PM</a><span> </span><a id="32362" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32362">4:30PM</a><span> </span><a id="32363" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32363">6:15PM</a><span> </span><a id="32364" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32364">8:00PM</a><span> </span><a id="32342" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32342">9:45PM</a><span> </span><a id="32343" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32343">11:30PM</a></td><td colspan="1"></td>
+			</tr><tr class="ShowtimesAestheticRow">
+				<td colspan="4"></td>
+			</tr>
+		</table></td>
+	</tr><tr class="ShowtimesSummaryRowAlt">
+		<td colspan="5"><table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+			<tr>
+				<td style="width:5px;"></td><td style="width:250px;"></td><td style="width:320px;"></td><td style="width:5px;"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><a class="ShowtimesMovieLink" href="visMovieInfo.aspx?MovieName=Police+Story+2013+Blockbuster&amp;CinemaID=1001">Police Story 2013 Blockbuster</a></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><span class="ShowtimesMovieOtherText">Running Time: 110 mins</span></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="1"></td><td align="right" colspan="1"><span> </span><a id="32383" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32383">12:30PM</a><span> </span><a id="32378" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32378">2:45PM</a><span> </span><a id="32379" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32379">5:00PM</a><span> </span><a id="32380" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32380">7:15PM</a><span> </span><a id="32381" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32381">9:30PM</a><span> </span><a id="32382" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32382">11:45PM</a></td><td colspan="1"></td>
+			</tr><tr class="ShowtimesAestheticRowAlt">
+				<td colspan="4"></td>
+			</tr>
+		</table></td>
+	</tr><tr class="ShowtimesSummaryRow">
+		<td colspan="5"><table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+			<tr>
+				<td style="width:5px;"></td><td style="width:250px;"></td><td style="width:320px;"></td><td style="width:5px;"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><a class="ShowtimesMovieLink" href="visMovieInfo.aspx?MovieName=Rumah+Sewa+RM50+Blockbuster&amp;CinemaID=1001">Rumah Sewa RM50 Blockbuster</a></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><span class="ShowtimesMovieOtherText">Running Time: 82 mins</span></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="1"></td><td align="right" colspan="1"><span> </span><a id="32351" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32351">12:40PM</a><span> </span><a id="32434" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32434">2:25PM</a><span> </span><a id="32433" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32433">4:10PM</a><span> </span><a id="32432" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32432">5:55PM</a><span> </span><a id="32416" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32416">7:30PM</a><span> </span><a id="32355" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32355">9:15PM</a><span> </span><a id="32357" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32357">11:00PM</a></td><td colspan="1"></td>
+			</tr><tr class="ShowtimesAestheticRow">
+				<td colspan="4"></td>
+			</tr>
+		</table></td>
+	</tr><tr class="ShowtimesSummaryRowAlt">
+		<td colspan="5"><table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+			<tr>
+				<td style="width:5px;"></td><td style="width:250px;"></td><td style="width:320px;"></td><td style="width:5px;"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><a class="ShowtimesMovieLink" href="visMovieInfo.aspx?MovieName=Secret+Life+of+Walter+Mitty+Blockbuster&amp;CinemaID=1001">Secret Life of Walter Mitty Blockbuster</a></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><span class="ShowtimesMovieOtherText">Running Time: 107 mins</span></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="1"></td><td align="right" colspan="1"><span> </span><a id="32401" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32401">1:05PM</a><span> </span><a id="32424" class="ShowtimesSessionSoldOutLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32424">4:05PM</a><span> </span><a id="32404" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32404">7:10PM</a><span> </span><a id="32405" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32405">9:20PM</a><span> </span><a id="32407" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32407">11:30PM</a></td><td colspan="1"></td>
+			</tr><tr class="ShowtimesAestheticRowAlt">
+				<td colspan="4"></td>
+			</tr>
+		</table></td>
+	</tr><tr class="ShowtimesSummaryRow">
+		<td colspan="5"><table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+			<tr>
+				<td style="width:5px;"></td><td style="width:250px;"></td><td style="width:320px;"></td><td style="width:5px;"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><a class="ShowtimesMovieLink" href="visMovieInfo.aspx?MovieName=Tokan&amp;CinemaID=1001">Tokan</a></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><span class="ShowtimesMovieOtherText">Running Time: 85 mins</span></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="1"></td><td align="right" colspan="1"><span> </span><a id="32406" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32406">11:15AM</a><span> </span><a id="32425" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32425">6:15PM</a><span> </span><a id="32394" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32394">10:45PM</a></td><td colspan="1"></td>
+			</tr><tr class="ShowtimesAestheticRow">
+				<td colspan="4"></td>
+			</tr>
+		</table></td>
+	</tr><tr class="ShowtimesSummaryRowAlt">
+		<td colspan="5"><table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+			<tr>
+				<td style="width:5px;"></td><td style="width:250px;"></td><td style="width:320px;"></td><td style="width:5px;"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><a class="ShowtimesMovieLink" href="visMovieInfo.aspx?MovieName=Walking+With+Dinosaurs&amp;CinemaID=1001">Walking With Dinosaurs</a></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="2"><span class="ShowtimesMovieOtherText">Running Time: 84 mins</span></td><td colspan="1"></td>
+			</tr><tr>
+				<td colspan="1"></td><td colspan="1"></td><td align="right" colspan="1"><span> </span><a id="32402" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32402">3:15PM</a></td><td colspan="1"></td>
+			</tr><tr class="ShowtimesAestheticRowAlt">
+				<td colspan="4"></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+			
+
+											</TD>
+										</TR>
+
+										<TR>
+											<TD colspan="3" height="5"></TD>
+										</TR>
+									</TABLE>
+								</TD>
+							</TR>
+						</TABLE>
+					</TD>
+				</TR>
+			</TABLE>
+		</TD>
+	</TR>
+</TABLE>
+
+<SCRIPT LANGUAGE="JavaScript">
+	<!--
+	function openWindow(page,winHeight,winWidth){
+		window.open (page, 'newwindow', config='height=' + winHeight +', width=' + winWidth + ', toolbar=no, menubar=no, scrollbars=yes, resizable=no,location=no, directories=no, status=no')
+	}
+	-->
+</SCRIPT>
+
+</form>
+    </body>
+</html>

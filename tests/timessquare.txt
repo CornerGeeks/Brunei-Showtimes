@@ -1,0 +1,1025 @@
+
+
+
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>TimesCineplex.com - BRUNEI’S NEWEST 5-SCREEN DIGITAL CINEPLEX</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="http://timescineplex.com/wp-content/themes/cineplex/favicon.ico" />  
+<link rel="stylesheet" type="text/css" href="http://timescineplex.com/wp-content/themes/cineplex/_css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="http://timescineplex.com/wp-content/themes/cineplex/_css/style.css">
+<link rel="stylesheet" type="text/css" href="http://timescineplex.com/wp-content/themes/cineplex/_css/media-queries.css">
+<link rel="stylesheet" type="text/css" href="http://timescineplex.com/wp-content/themes/cineplex/_source/jquery.fancybox.css">
+<!--[if IE]> <link rel="stylesheet" type="text/css" href="http://timescineplex.com/wp-content/themes/cineplex/_css/iefix.css"> <![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Times Cineplex &raquo; Schedule Comments Feed" href="http://timescineplex.com/schedule/feed/" />
+<link rel='stylesheet' id='cptchStylesheet-css'  href='http://timescineplex.com/wp-content/plugins/captcha/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://timescineplex.com/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ws-plugin--s2member-css'  href='http://timescineplex.com/wp-content/plugins/s2member/s2member-o.php?ws_plugin__s2member_css=1&#038;qcABC=1' type='text/css' media='all' />
+<script type='text/javascript' src='http://timescineplex.com/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='http://timescineplex.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _zxcvbnSettings = {"src":"http:\/\/timescineplex.com\/wp-includes\/js\/zxcvbn.min.js"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://timescineplex.com/wp-includes/js/zxcvbn-async.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pwsL10n = {"empty":"Strength indicator","short":"Very weak","bad":"Weak","good":"Medium","strong":"Strong","mismatch":"Mismatch"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://timescineplex.com/wp-admin/js/password-strength-meter.min.js'></script>
+<script type='text/javascript' src='http://timescineplex.com/wp-content/plugins/s2member/s2member-o.php?ws_plugin__s2member_js_w_globals=1&#038;qcABC=1'></script>
+<link rel='prev' title='NextChange' href='http://timescineplex.com/nextshowing/' />
+<link rel='next' title='TicketPricing' href='http://timescineplex.com/ticketpricing/' />
+<link rel='canonical' href='http://timescineplex.com/schedule/' />
+<link rel='shortlink' href='http://timescineplex.com/?p=18' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<head>
+<body>
+
+<div class="header"> <!-- Header -->
+    <div class="container">
+        <div class="navbar row">
+              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 logo-fix">
+                <div class="navbar-header">
+                    <a href="http://timescineplex.com"><img src="http://timescineplex.com/wp-content/themes/cineplex/images/logo.png" class="ease logo"></a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                    </button> 
+                </div>
+              </div> <!--logo-->
+              
+               <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 nav-wrap"> 
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav pull-left">
+                        
+
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="http://timescineplex.com/">Home</a></li>
+<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="http://timescineplex.com/nextshowing/">Next<br/>Change</a></li>
+<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="http://timescineplex.com/coming-soon/">Coming <br/>Soon</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://timescineplex.com/ticketpricing/">Ticket<br/>Pricing</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="http://timescineplex.com/contact-us/">Contact <br/>Us</a></li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-18 current_page_item menu-item-23"><a href="http://timescineplex.com/schedule/">Schedule</a></li>
+<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="http://timescineplex.com/about/">About</a></li>
+<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="http://timescineplex.com/vacancies/">Vacancies</a></li>
+<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://timescineplex.com/advertising/">Advertising</a></li>
+<li id="menu-item-2586" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2586"><a href="https://www.facebook.com/pages/Times-Cineplex/304485069615145">Facebook</a></li>
+                     </ul>
+                </div>
+               </div> <!--Navigation Links-->
+        </div>
+    </div>
+</div> <!--End header -->
+        <div class="page-content">
+    <div class="container">
+        <div class="row">
+            <div class="page-heading">
+                <h3>Schedule <span>THU. JAN 2 - WED. JAN 8</span></h3>
+                <div class="heading-notes"> <a href="http://timescineplex.com/nextshowing/">For next week's schedule, please click <span>here</span> or on NEXT CHANGE section</a></div>  
+            </div>
+        </div> <!-- End Page heading-->
+
+     <div class="row">
+           
+            <div class="col-lg-12 movie-sched-outer">
+                <div class="row movie-sched-inner">
+                   <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                                                <div class="movie-poster">
+                        <a href="http://timescineplex.com/wp-content/uploads/2013/12/Justin-Biebers-Believe-7cffaf81.jpg" class="fancybox" data-fancybox-group="gallery">
+                            <!-- <img src="images/posters/1.jpg" alt="" height="268" width="210"> -->
+                            <img width="160" height="250" src="http://timescineplex.com/wp-content/uploads/2013/12/Justin-Biebers-Believe-7cffaf81-192x300.jpg" class="attachment-160x9999x1 wp-post-image" alt="Justin-Biebers-Believe-7cffaf81" />                        </a>
+                        </div>
+                    </div>
+
+                    <div class="movie-detail-list col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                        <div class="movie-title">JUSTIN BIEBER&#8217;S BELIEVE <p> 1 hour and 28 minutes</p></div>
+                        <div class="table-scheds">
+                            
+                            <div class="table-col table-col-1">
+                                <div class="table-header">
+                                    			<div class="textwidget">thur - Jan. 2</div>
+		 
+                                </div>
+                                <div class="table-contents">
+                                   11:00AM,
+12:45PM,
+02:45PM,
+04:30PM,
+06:15PM,
+07:45PM,
+09:30PM,
+11:15PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-2">
+                                <div class="table-header">			<div class="textwidget">Fri - Jan. 3</div>
+		 </div>
+                                <div class="table-contents">
+                                    02:45PM,
+04:30PM,
+06:15PM,
+07:45PM,
+09:30PM,
+11:15PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-3">
+                                <div class="table-header">			<div class="textwidget">Sat - Jan. 4</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:00AM,
+12:45PM,
+02:45PM,
+04:15PM,
+06:00PM,
+07:45PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-4">
+                                <div class="table-header">			<div class="textwidget">Sun - Jan. 5</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:00AM,
+12:45PM,
+02:45PM,
+04:15PM,
+06:00PM,
+07:45PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-5">
+                                <div class="table-header">			<div class="textwidget">Mon - Jan. 6</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:00AM,
+12:45PM,
+02:45PM,
+04:15PM,
+06:00PM,
+07:45PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-6">
+                                <div class="table-header">			<div class="textwidget">Tue - Jan. 7</div>
+		 </div>
+                                <div class="table-contents">
+                                  11:00AM,
+12:45PM,
+02:45PM,
+04:15PM,
+06:00PM,
+07:45PM
+  
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-7">
+                                <div class="table-header">			<div class="textwidget">Wed - Jan. 8</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:00AM,
+12:45PM,
+02:45PM,
+04:15PM,
+06:00PM,
+07:45PM
+ 
+                                </div>
+                            </div>                                                                                                              
+
+                        </div>
+                    </div>  
+                </div> <!--End Movie Row-->
+            </div> <!--Movie-sched-outer-->
+            <!--..............................................End Movie Sched ............................................-->
+                 
+            <div class="col-lg-12 movie-sched-outer">
+                <div class="row movie-sched-inner">
+                   <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                                                <div class="movie-poster">
+                        <a href="http://timescineplex.com/wp-content/uploads/2013/12/Paranormal-Activity-The-Marked-Ones-1-690x1024.jpg" class="fancybox" data-fancybox-group="gallery">
+                            <!-- <img src="images/posters/1.jpg" alt="" height="268" width="210"> -->
+                            <img width="160" height="237" src="http://timescineplex.com/wp-content/uploads/2013/12/Paranormal-Activity-The-Marked-Ones-1-202x300.jpg" class="attachment-160x9999x1 wp-post-image" alt="Paranormal-Activity-The-Marked-Ones-1" />                        </a>
+                        </div>
+                    </div>
+
+                    <div class="movie-detail-list col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                        <div class="movie-title">PARANORMAL ACTIVITY : THE MARKED ONES <p> 1 hour and 25 minutes</p></div>
+                        <div class="table-scheds">
+                            
+                            <div class="table-col table-col-1">
+                                <div class="table-header">
+                                    			<div class="textwidget">thur - Jan. 2</div>
+		 
+                                </div>
+                                <div class="table-contents">
+                                   11:15AM,
+01:00PM,
+02:30PM,
+04:15PM,
+06:00PM,
+08:00PM,
+09:45PM,
+11:30PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-2">
+                                <div class="table-header">			<div class="textwidget">Fri - Jan. 3</div>
+		 </div>
+                                <div class="table-contents">
+                                    02:30PM,
+04:15PM,
+06:00PM,
+08:00PM,
+09:45PM,
+11:30PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-3">
+                                <div class="table-header">			<div class="textwidget">Sat - Jan. 4</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:15AM,
+01:00PM,
+02:30PM,
+04:30PM,
+06:15PM,
+08:00PM,
+09:45PM,
+11:30PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-4">
+                                <div class="table-header">			<div class="textwidget">Sun - Jan. 5</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:15AM,
+01:00PM,
+02:30PM,
+04:30PM,
+06:15PM,
+08:00PM,
+09:45PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-5">
+                                <div class="table-header">			<div class="textwidget">Mon - Jan. 6</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:15AM,
+01:00PM,
+02:30PM,
+04:30PM,
+06:15PM,
+08:00PM,
+09:45PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-6">
+                                <div class="table-header">			<div class="textwidget">Tue - Jan. 7</div>
+		 </div>
+                                <div class="table-contents">
+                                  11:15AM,
+01:00PM,
+02:30PM,
+04:30PM,
+06:15PM,
+08:00PM,
+09:45PM
+  
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-7">
+                                <div class="table-header">			<div class="textwidget">Wed - Jan. 8</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:15AM,
+01:00PM,
+02:30PM,
+04:30PM,
+06:15PM,
+08:00PM,
+09:45PM
+ 
+                                </div>
+                            </div>                                                                                                              
+
+                        </div>
+                    </div>  
+                /div> <!--End Movie Row-->
+            </div> <!--Movie-sched-outer-->
+            <!--..............................................End Movie Sched ............................................-->
+                 
+            <div class="col-lg-12 movie-sched-outer">
+                <div class="row movie-sched-inner">
+                   <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                                                <div class="movie-poster">
+                        <a href="http://timescineplex.com/wp-content/uploads/2013/11/PoliceStory2013Poster-thumb-630xauto-34547.jpg" class="fancybox" data-fancybox-group="gallery">
+                            <!-- <img src="images/posters/1.jpg" alt="" height="268" width="210"> -->
+                            <img width="160" height="246" src="http://timescineplex.com/wp-content/uploads/2013/11/PoliceStory2013Poster-thumb-630xauto-34547-195x300.jpg" class="attachment-160x9999x1 wp-post-image" alt="PoliceStory2013Poster-thumb-630xauto-34547" />                        </a>
+                        </div>
+                    </div>
+
+                    <div class="movie-detail-list col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                        <div class="movie-title">Police Story 2013 <p> 1 hour and 58 minutes</p></div>
+                        <div class="table-scheds">
+                            
+                            <div class="table-col table-col-1">
+                                <div class="table-header">
+                                    			<div class="textwidget">thur - Jan. 2</div>
+		 
+                                </div>
+                                <div class="table-contents">
+                                   11:45AM,
+02:10PM,
+07:10PM,
+09:20PM,
+11:25PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-2">
+                                <div class="table-header">			<div class="textwidget">Fri - Jan. 3</div>
+		 </div>
+                                <div class="table-contents">
+                                    02:10PM,
+07:10PM,
+09:20PM,
+11:25PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-3">
+                                <div class="table-header">			<div class="textwidget">Sat - Jan. 4</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:45AM,
+02:10PM,
+07:10PM,
+09:20PM,
+11:25PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-4">
+                                <div class="table-header">			<div class="textwidget">Sun - Jan. 5</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:45AM,
+02:10PM,
+07:10PM,
+09:20PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-5">
+                                <div class="table-header">			<div class="textwidget">Mon - Jan. 6</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:45AM,
+02:10PM,
+07:10PM,
+09:20PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-6">
+                                <div class="table-header">			<div class="textwidget">Tue - Jan. 7</div>
+		 </div>
+                                <div class="table-contents">
+                                  11:45AM,
+02:10PM,
+07:10PM,
+09:20PM
+  
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-7">
+                                <div class="table-header">			<div class="textwidget">Wed - Jan. 8</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:45AM,
+02:10PM,
+07:10PM,
+09:20PM
+ 
+                                </div>
+                            </div>                                                                                                              
+
+                        </div>
+                    </div>  
+                </div> <!--End Movie Row-->
+            </div> <!--Movie-sched-outer-->
+            <!--..............................................End Movie Sched ............................................-->
+                 
+            <div class="col-lg-12 movie-sched-outer">
+                <div class="row movie-sched-inner">
+                   <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                                                <div class="movie-poster">
+                        <a href="http://timescineplex.com/wp-content/uploads/2013/11/secret_life_of_walter_mitty_ver7.jpg" class="fancybox" data-fancybox-group="gallery">
+                            <!-- <img src="images/posters/1.jpg" alt="" height="268" width="210"> -->
+                            <img width="160" height="237" src="http://timescineplex.com/wp-content/uploads/2013/11/secret_life_of_walter_mitty_ver7-202x300.jpg" class="attachment-160x9999x1 wp-post-image" alt="secret_life_of_walter_mitty_ver7" />                        </a>
+                        </div>
+                    </div>
+
+                    <div class="movie-detail-list col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                        <div class="movie-title">THE SECRET LIFE OF WALTER MITTY <p> 1 hour and 47 minutes</p></div>
+                        <div class="table-scheds">
+                            
+                            <div class="table-col table-col-1">
+                                <div class="table-header">
+                                    			<div class="textwidget">thur - Jan. 2</div>
+		 
+                                </div>
+                                <div class="table-contents">
+                                   01:00PM,
+05:00PM,
+07:15PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-2">
+                                <div class="table-header">			<div class="textwidget">Fri - Jan. 3</div>
+		 </div>
+                                <div class="table-contents">
+                                    05:00PM,
+07:15PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-3">
+                                <div class="table-header">			<div class="textwidget">Sat - Jan. 4</div>
+		 </div>
+                                <div class="table-contents">
+                                   01:00PM,
+05:00PM,
+07:15PM,
+09:30PM,
+11:35PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-4">
+                                <div class="table-header">			<div class="textwidget">Sun - Jan. 5</div>
+		 </div>
+                                <div class="table-contents">
+                                   01:00PM,
+05:00PM,
+07:15PM,
+09:30PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-5">
+                                <div class="table-header">			<div class="textwidget">Mon - Jan. 6</div>
+		 </div>
+                                <div class="table-contents">
+                                   01:00PM,
+05:00PM,
+07:15PM,
+09:30PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-6">
+                                <div class="table-header">			<div class="textwidget">Tue - Jan. 7</div>
+		 </div>
+                                <div class="table-contents">
+                                  01:00PM,
+05:00PM,
+07:15PM,
+09:30PM
+  
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-7">
+                                <div class="table-header">			<div class="textwidget">Wed - Jan. 8</div>
+		 </div>
+                                <div class="table-contents">
+                                   01:00PM,
+05:00PM,
+07:15PM,
+09:30PM
+ 
+                                </div>
+                            </div>                                                                                                              
+
+                        </div>
+                    </div>  
+                </div> <!--End Movie Row-->
+            </div> <!--Movie-sched-outer-->
+            <!--..............................................End Movie Sched ............................................-->
+                 
+            <div class="col-lg-12 movie-sched-outer">
+                <div class="row movie-sched-inner">
+                   <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                                                <div class="movie-poster">
+                        <a href="http://timescineplex.com/wp-content/uploads/2013/12/delivery_man_xlg-691x1024.jpg" class="fancybox" data-fancybox-group="gallery">
+                            <!-- <img src="images/posters/1.jpg" alt="" height="268" width="210"> -->
+                            <img width="160" height="237" src="http://timescineplex.com/wp-content/uploads/2013/12/delivery_man_xlg-202x300.jpg" class="attachment-160x9999x1 wp-post-image" alt="delivery_man_xlg" />                        </a>
+                        </div>
+                    </div>
+
+                    <div class="movie-detail-list col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                        <div class="movie-title">Delivery Man <p> 1 hour and 43 minutes</p></div>
+                        <div class="table-scheds">
+                            
+                            <div class="table-col table-col-1">
+                                <div class="table-header">
+                                    			<div class="textwidget">thur - Jan. 2</div>
+		 
+                                </div>
+                                <div class="table-contents">
+                                   11:00AM,
+03:00PM,
+09:20PM,
+11:20PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-2">
+                                <div class="table-header">			<div class="textwidget">Fri - Jan. 3</div>
+		 </div>
+                                <div class="table-contents">
+                                    03:00PM,
+09:20PM,
+11:20PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-3">
+                                <div class="table-header">			<div class="textwidget">Sat - Jan. 4</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:00AM,
+03:00PM,
+07:15PM,
+09:20PM,
+11:20PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-4">
+                                <div class="table-header">			<div class="textwidget">Sun - Jan. 5</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:00AM,
+03:00PM,
+07:15PM,
+09:20PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-5">
+                                <div class="table-header">			<div class="textwidget">Mon - Jan. 6</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:00AM,
+03:00PM,
+07:15PM,
+09:20PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-6">
+                                <div class="table-header">			<div class="textwidget">Tue - Jan. 7</div>
+		 </div>
+                                <div class="table-contents">
+                                  11:00AM,
+03:00PM,
+07:15PM,
+09:20PM
+  
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-7">
+                                <div class="table-header">			<div class="textwidget">Wed - Jan. 8</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:00AM,
+03:00PM,
+07:15PM,
+09:20PM
+ 
+                                </div>
+                            </div>                                                                                                              
+
+                        </div>
+                    </div>  
+                </div> <!--End Movie Row-->
+            </div> <!--Movie-sched-outer-->
+            <!--..............................................End Movie Sched ............................................-->
+                 
+            <div class="col-lg-12 movie-sched-outer">
+                <div class="row movie-sched-inner">
+                   <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                                                <div class="movie-poster">
+                        <a href="http://timescineplex.com/wp-content/uploads/2013/09/47-Ronin.jpg" class="fancybox" data-fancybox-group="gallery">
+                            <!-- <img src="images/posters/1.jpg" alt="" height="268" width="210"> -->
+                            <img width="160" height="226" src="http://timescineplex.com/wp-content/uploads/2013/09/47-Ronin-212x300.jpg" class="attachment-160x9999x1 wp-post-image" alt="47 Ronin" />                        </a>
+                        </div>
+                    </div>
+
+                    <div class="movie-detail-list col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                        <div class="movie-title">47 Ronin <p> 1 hour and 58 minutes</p></div>
+                        <div class="table-scheds">
+                            
+                            <div class="table-col table-col-1">
+                                <div class="table-header">
+                                    			<div class="textwidget">thur - Jan. 2</div>
+		 
+                                </div>
+                                <div class="table-contents">
+                                   01:15PM,
+05:00PM,
+09:00PM,
+11:10PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-2">
+                                <div class="table-header">			<div class="textwidget">Fri - Jan. 3</div>
+		 </div>
+                                <div class="table-contents">
+                                    05:00PM,
+09:00PM,
+11:10PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-3">
+                                <div class="table-header">			<div class="textwidget">Sat - Jan. 4</div>
+		 </div>
+                                <div class="table-contents">
+                                   01:15PM,
+05:00PM,
+09:15PM,
+11:25PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-4">
+                                <div class="table-header">			<div class="textwidget">Sun - Jan. 5</div>
+		 </div>
+                                <div class="table-contents">
+                                   01:15PM,
+05:00PM,
+09:15PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-5">
+                                <div class="table-header">			<div class="textwidget">Mon - Jan. 6</div>
+		 </div>
+                                <div class="table-contents">
+                                   01:15PM,
+05:00PM,
+09:15PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-6">
+                                <div class="table-header">			<div class="textwidget">Tue - Jan. 7</div>
+		 </div>
+                                <div class="table-contents">
+                                  01:15PM,
+05:00PM,
+09:15PM
+  
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-7">
+                                <div class="table-header">			<div class="textwidget">Wed - Jan. 8</div>
+		 </div>
+                                <div class="table-contents">
+                                   01:15PM,
+05:00PM,
+09:15PM
+ 
+                                </div>
+                            </div>                                                                                                              
+
+                        </div>
+                    </div>  
+                </div> <!--End Movie Row-->
+            </div> <!--Movie-sched-outer-->
+            <!--..............................................End Movie Sched ............................................-->
+                 
+            <div class="col-lg-12 movie-sched-outer">
+                <div class="row movie-sched-inner">
+                   <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                                                <div class="movie-poster">
+                        <a href="http://timescineplex.com/wp-content/uploads/2013/09/The-Hobbit-The-Desolation-Of-Smaug-Poster.jpeg" class="fancybox" data-fancybox-group="gallery">
+                            <!-- <img src="images/posters/1.jpg" alt="" height="268" width="210"> -->
+                            <img width="160" height="218" src="http://timescineplex.com/wp-content/uploads/2013/09/The-Hobbit-The-Desolation-Of-Smaug-Poster-220x300.jpeg" class="attachment-160x9999x1 wp-post-image" alt="The-Hobbit-The-Desolation-Of-Smaug-Poster" />                        </a>
+                        </div>
+                    </div>
+
+                    <div class="movie-detail-list col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                        <div class="movie-title">The Hobbit 2: The Desolation of Smaug <p> 2 hours and 45 minutes</p></div>
+                        <div class="table-scheds">
+                            
+                            <div class="table-col table-col-1">
+                                <div class="table-header">
+                                    			<div class="textwidget">thur - Jan. 2</div>
+		 
+                                </div>
+                                <div class="table-contents">
+                                   04:10PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-2">
+                                <div class="table-header">			<div class="textwidget">Fri - Jan. 3</div>
+		 </div>
+                                <div class="table-contents">
+                                    04:10PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-3">
+                                <div class="table-header">			<div class="textwidget">Sat - Jan. 4</div>
+		 </div>
+                                <div class="table-contents">
+                                   04:10PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-4">
+                                <div class="table-header">			<div class="textwidget">Sun - Jan. 5</div>
+		 </div>
+                                <div class="table-contents">
+                                   04:10PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-5">
+                                <div class="table-header">			<div class="textwidget">Mon - Jan. 6</div>
+		 </div>
+                                <div class="table-contents">
+                                   04:10PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-6">
+                                <div class="table-header">			<div class="textwidget">Tue - Jan. 7</div>
+		 </div>
+                                <div class="table-contents">
+                                  04:10PM
+  
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-7">
+                                <div class="table-header">			<div class="textwidget">Wed - Jan. 8</div>
+		 </div>
+                                <div class="table-contents">
+                                   04:10PM
+ 
+                                </div>
+                            </div>                                                                                                              
+
+                        </div>
+                    </div>  
+                </div> <!--End Movie Row-->
+            </div> <!--Movie-sched-outer-->
+            <!--..............................................End Movie Sched ............................................-->
+                 
+            <div class="col-lg-12 movie-sched-outer">
+                <div class="row movie-sched-inner">
+                   <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                                                <div class="movie-poster">
+                        <a href="http://timescineplex.com/wp-content/uploads/2013/09/Frozen.jpg" class="fancybox" data-fancybox-group="gallery">
+                            <!-- <img src="images/posters/1.jpg" alt="" height="268" width="210"> -->
+                            <img width="160" height="228" src="http://timescineplex.com/wp-content/uploads/2013/09/Frozen-210x300.jpg" class="attachment-160x9999x1 wp-post-image" alt="kinopoisk.ru" />                        </a>
+                        </div>
+                    </div>
+
+                    <div class="movie-detail-list col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                        <div class="movie-title">FROZEN <p> 1 hour and 49 minutes</p></div>
+                        <div class="table-scheds">
+                            
+                            <div class="table-col table-col-1">
+                                <div class="table-header">
+                                    			<div class="textwidget">thur - Jan. 2</div>
+		 
+                                </div>
+                                <div class="table-contents">
+                                   11:10AM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-2">
+                                <div class="table-header">			<div class="textwidget">Fri - Jan. 3</div>
+		 </div>
+                                <div class="table-contents">
+                                                                    </div>
+                            </div>
+
+                            <div class="table-col table-col-3">
+                                <div class="table-header">			<div class="textwidget">Sat - Jan. 4</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:10AM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-4">
+                                <div class="table-header">			<div class="textwidget">Sun - Jan. 5</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:10AM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-5">
+                                <div class="table-header">			<div class="textwidget">Mon - Jan. 6</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:10AM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-6">
+                                <div class="table-header">			<div class="textwidget">Tue - Jan. 7</div>
+		 </div>
+                                <div class="table-contents">
+                                  11:10AM
+  
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-7">
+                                <div class="table-header">			<div class="textwidget">Wed - Jan. 8</div>
+		 </div>
+                                <div class="table-contents">
+                                   11:10AM
+ 
+                                </div>
+                            </div>                                                                                                              
+
+                        </div>
+                    </div>  
+                </div> <!--End Movie Row-->
+            </div> <!--Movie-sched-outer-->
+            <!--..............................................End Movie Sched ............................................-->
+                 
+            <div class="col-lg-12 movie-sched-outer">
+                <div class="row movie-sched-inner">
+                   <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                                                <div class="movie-poster">
+                        <a href="http://timescineplex.com/wp-content/uploads/2013/11/PHfpzf4tOB9hii_2_m.jpg" class="fancybox" data-fancybox-group="gallery">
+                            <!-- <img src="images/posters/1.jpg" alt="" height="268" width="210"> -->
+                            <img width="160" height="237" src="http://timescineplex.com/wp-content/uploads/2013/11/PHfpzf4tOB9hii_2_m-202x300.jpg" class="attachment-160x9999x1 wp-post-image" alt="PHfpzf4tOB9hii_2_m" />                        </a>
+                        </div>
+                    </div>
+
+                    <div class="movie-detail-list col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                        <div class="movie-title">Walking with Dinosaurs (2D) <p> 1 hour and 28 minutes</p></div>
+                        <div class="table-scheds">
+                            
+                            <div class="table-col table-col-1">
+                                <div class="table-header">
+                                    			<div class="textwidget">thur - Jan. 2</div>
+		 
+                                </div>
+                                <div class="table-contents">
+                                   03:20PM,
+07:15PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-2">
+                                <div class="table-header">			<div class="textwidget">Fri - Jan. 3</div>
+		 </div>
+                                <div class="table-contents">
+                                    03:20PM,
+07:15PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-3">
+                                <div class="table-header">			<div class="textwidget">Sat - Jan. 4</div>
+		 </div>
+                                <div class="table-contents">
+                                   03:20PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-4">
+                                <div class="table-header">			<div class="textwidget">Sun - Jan. 5</div>
+		 </div>
+                                <div class="table-contents">
+                                   03:20PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-5">
+                                <div class="table-header">			<div class="textwidget">Mon - Jan. 6</div>
+		 </div>
+                                <div class="table-contents">
+                                   03:20PM
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-6">
+                                <div class="table-header">			<div class="textwidget">Tue - Jan. 7</div>
+		 </div>
+                                <div class="table-contents">
+                                  03:20PM
+  
+                                </div>
+                            </div>
+
+                            <div class="table-col table-col-7">
+                                <div class="table-header">			<div class="textwidget">Wed - Jan. 8</div>
+		 </div>
+                                <div class="table-contents">
+                                   03:20PM
+ 
+                                </div>
+                            </div>                                                                                                              
+
+                        </div>
+                    </div>  
+                </div> <!--End Movie Row-->
+            </div> <!--Movie-sched-outer-->
+            <!--..............................................End Movie Sched ............................................-->
+                
+        </div>
+        
+         
+
+    </div>    
+</div>    
+<div class="footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                <div class="footer-left">
+                <p> 4th Floor Times Square Shopping Centre Spg 13-29, Jalan Berakas</p>
+                <p>Bandar Seri Begawan BE2719, Brunei Darussalam</p>
+                <p><span>Hotline:</span> 234-1122 &nbsp;&nbsp;|&nbsp;&nbsp; <span>Fax:</span> 233-9010</p>
+                </div>
+            </div>
+
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <div class="footer-right">
+                    <div class="footer-logo"><a href="http://timescineplex.com"><img src="http://timescineplex.com/wp-content/themes/cineplex/images/footer-logo.png" alt=""></a>
+                        <div class="tc-brand">Brunei Darussalam <span>&copy;</span> All Rights Reserved </div>
+                        <div class="copyright-year">2013</div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>      
+    </div>
+</div> <!--Footer-->
+
+
+<script type="text/javascript" src="http://timescineplex.com/wp-content/themes/cineplex/_js/jquery.js"></script>
+<script type="text/javascript" src="http://timescineplex.com/wp-content/themes/cineplex/_js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://timescineplex.com/wp-content/themes/cineplex/_source/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="http://timescineplex.com/wp-content/themes/cineplex/_js/jquery.eislideshow.js"></script>
+<script type="text/javascript" src="http://timescineplex.com/wp-content/themes/cineplex/_js/jquery.easing.1.3.js"></script>
+<!--[if IE]> 
+<script type="text/javascript" src="http://timescineplex.com/wp-content/themes/cineplex/_js/jquery.placeholder.js"></script>
+<script type="text/javascript" src="http://timescineplex.com/wp-content/themes/cineplex/_js/respond.min.js"></script> 
+<![endif]-->
+<script type="text/javascript" src="http://timescineplex.com/wp-content/themes/cineplex/_js/global.js"></script>
+<script type='text/javascript' src='http://timescineplex.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/timescineplex.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://timescineplex.com/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
+</body> 
+</html> 
+
+<!--
+      
+
+-->

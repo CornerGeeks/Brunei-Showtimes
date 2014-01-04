@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>Brunei Showtimes</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-icon" sizes="144x144" href="ico/icon_144.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="ico/icon_114.png">
+    <link rel="apple-touch-icon" sizes="72x72"   href="ico/icon_72.png">
+    <link rel="apple-touch-icon"                 href="ico/icon_57.png">
+
+<script>
+
+Object.size = function(obj) {
+	var size=0
+    for (key in obj)
+        if (obj.hasOwnProperty(key)) size++;
+    return size;
+};
+
+function d(n){
+	return n<9?"0"+n:n
+}
+var date_cache=(function(){
+	var month=new Date().getMonth(),date=new Date().getDate(),year=new Date().getFullYear(),
+	//monthNames=["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+	dayNames=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]
+	for(var i=0,temp={};i<7;i++){
+		var curr=new Date(year,month,date+i)
+		temp[ d(curr.getDate())+"-"+d(curr.getMonth()+1)]={
+			"day":dayNames[curr.getDay()],
+			"date":curr.getDate(),
+			"next":i
+		};
+	}
+return temp;
+})()
+
+
+
+function makeDate(s){
+	var time=date_cache[s]
+	var div=create("div",null,"cal")
+	var day=create("span",time.day,"day")
+	var date=create("span",time.date,"date")
+	div.setAttribute('style','opacity:0.'+(8-time.next))
+	div.appendChild(day)
+	div.appendChild(date)
+	if(!time.next) div.className+=" today"
+	return div
+}
+
+var cinemaNames={
+	"The-Mall":"The Mall Cineplex",
+	"Times-Square":"Times Cineplex",
+	"qlap":"Seri Qlap cineplex",
+	"PSBSeria":"PSB Dualplex,Seria"
+}
+
+function create(s,v,c){
+	var el=document.createElement(s)
+	if(v) el.innerHTML=v
+	if(c) el.className=c
+	return el
+}
+
+function to_minutes(s){
+	s=s.replace(/[^\d ]/g,'').split(' ').filter(function(o){ return o;}).reverse()
+	s=parseInt(s[0])+parseInt(s.length > 1 ? s[1] : 0)*60
+	return s;
+}
+
+function d(n){
+	return parseInt(n)<10?"0"+n:n
+}
+var now=new Date();
+var today=d(now.getDate())+"-"+d(now.getMonth()+1);
+var hourNow=now.getHours()
+var minNow=now.getMinutes()
+
+function check_time(date,time){
+	if(date==today){
+		time=time.split(':')
+		return parseInt(time[0])>hourNow || parseInt(time[0])==hourNow && parseInt(time[1]) >=minNow
+	}
+	return true
+}
+
+function each(arr,callback){
+	for(i in arr){
+		callback(arr[i],i)
+	}
+	return i
+}
+
+function sort_object(obj){
+	var temp={}
+	for(date in date_cache){
+		if(obj[date])
+			temp[date]=obj[date]
+	}
+	return temp
+}
+
+function parse_times(t){
+	var div = create('div')
+	var temp={}
+	each(t,function(i){
+		each(i,function(cinemas,name){
+			each(cinemas,function(dates,cinema){
+				if(!temp[cinema]) temp[cinema]={}
+					dates=sort_object(dates)
+					each(dates,function(times,date){
+						if(!temp[cinema][date]) temp[cinema][date]={}
+						if(!temp[cinema][date][name]) temp[cinema][date][name]=[]
+						each(times,function(time){
+							if(check_time(date,time))
+								temp[cinema][date][name].push(time)
+						})
+						if(temp[cinema][date][name].length==0) delete temp[cinema][date][name]
+						if(Object.size(temp[cinema][date])==0) delete temp[cinema][date]
+					})
+				if(Object.size(temp[cinema])==0) delete temp[cinema]
+			})
+			
+		})
+	})
+	console.log(temp)
+	
+	if(Object.size(temp)==0)
+		return null
+
+	each(temp,function(dates,cinema){
+		var time_div=create("div",null,"cinema")
+		h2=create("h2")
+		h2.className=cinema
+		h2.innerHTML=cinemaNames[cinema]
+		time_div.appendChild(h2)
+		each(dates,function(times,date){
+			var p=create("div",null,"dates")
+			each(times,function(times){
+				p.appendChild(makeDate(date))
+				if(date_cache[date].next)
+					p.setAttribute('style','opacity:0.'+(7-date_cache[date].next))
+				else
+					p.className+=" today"
+				p.innerHTML+="<span class='times'>"+times.join(', ')+"</span>"
+			})
+			time_div.appendChild(p)
+		})
+		div.appendChild(time_div)
+	})
+
+
+	return div
+}
+
+function make_post(o){
+	var times=parse_times(o.cinema);
+	if(!times) return false
+	var cont=create('div')
+	var div=create("div")
+	cont.className="movie"
+	var title=create("h2")
+	title.innerHTML=o.name
+	var synopsis=create('blockquote')
+	var info=create('div')
+	var image=create('img')
+	image.src=o.image
+	info.innerHTML=to_minutes(o.runningTime)+" min | <span class='genre'>"+o.genre+"</span>"
+	info.className="info"
+	synopsis.innerHTML=o.synopsis
+	cont.appendChild(image)
+	div.appendChild(title)
+	div.appendChild(info)
+	div.appendChild(synopsis)
+	div.appendChild(times)
+	cont.appendChild(div)
+	return cont
+}
+function callback(o){
+	for(name in o){
+		var post=make_post(o[name])
+		if(post)
+			movies.appendChild(post)
+	}
+}
+</script>
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,500' rel='stylesheet' type='text/css'>
+<style>
+* {margin:0px;padding:0px;}
+body {font-family: 'Lato', sans-serif;font-weight:300;line-height: 150%;letter-spacing:-0px;font-size:16px;}
+h1,h2 {color:#333;}
+h1 {font-family: 'Lobster', cursive;background:#CCC;line-height:200%;text-indent:2em;margin-bottom: 1em}
+h2 {font-family:'Lobster';font-size:120%;letter-spacing: 0px;font-weight: normal;}
+#movies {margin:1em 2em;}
+.movie {margin-bottom:4em;max-width:36em;}
+.movie img {float:right;width:100px;height:150px;margin-left:1em;}
+.info {font-size:80%;}
+h1 span {font-family: 'Lato';letter-spacing:-3px;}
+.times {display:block;margin-left:2.5em;font-family: Arial}
+.cinema {font-size:80%;margin-top:1em;margin-right:1em;}
+.cinema h2 {font-family: 'Lato';font-weight: 500}
+.The-Mall {color:#7c2222;}
+.Times-Square {color:#017377;}
+.qlap {color:#E0A0D2;}
+.dates {margin-bottom: 0.5em;position:relative;}
+.cal {font-size:80%;width:2em;height:2em;border:1px solid #666;border-radius:2px;text-align:center;position:absolute;clear:both;margin-bottom: }
+.day {display:block;background:#666;font-size:70%;color:#FFF;line-height:120%;border-bottom: 1px solid #666;}
+.today .day {background:#6A6;}
+.today .date {color:#060;}
+.today {font-weight: bold}
+.date {line-height: 120%;font-family: Arial;font-size:100%;font-weight: bold}
+</style>
+</head>
+<body>
+<h1><span>Brunei</span>Showtimes</h1>
+<div id="movies">
+
+</div>
+<script src="json.php?callback=callback"></script>
+</body>
+</html>

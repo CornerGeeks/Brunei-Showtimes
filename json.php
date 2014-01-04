@@ -8,7 +8,7 @@ header('Cache-Control: max-age=420');
 date_default_timezone_set('Asia/Brunei');
 $cachefile=__DIR__ ."/cash/".(int)(date_timestamp_get(date_create())/7200).".json";
 $headers = apache_request_headers(); 
-if(file_exists($cachefile)){
+if(file_exists($cachefile) && empty($_GET['local'])){
 if (isset($headers['If-Modified-Since']) && (strtotime($headers['If-Modified-Since']) == filemtime($cachefile))) {
     header('Last-Modified: '.gmdate('D, d M Y H:i:s', filemtime($cachefile)).' GMT', true, 304);
 }
@@ -24,6 +24,7 @@ function not_common($v){
 	global $common;
 	return !in_array(strtolower($v),$common);
 }
+
 
 
 $filter_dates=array();
@@ -43,6 +44,8 @@ function d($n){
 
 
  function get_web_page( $url ) { //stole off stackoverflow lolz.
+ 		if(!preg_match("/^https?:\/\//", $url))
+ 			$url = $_SERVER['REQUEST_SCHEME'] . "://" . $_SERVER['SERVER_NAME'] . ":" . $_SERVER['SERVER_PORT'] . dirname($_SERVER['PHP_SELF']) . "/" . $url;
         $user_agent='Mozilla/5.0 (Windows NT 6.1; rv:8.0) Gecko/20100101 Firefox/8.0';
 
         $ch      = curl_init( $url );
@@ -107,8 +110,58 @@ function d($n){
 
 
 
-
+# die(get_web_page("http://mall-ticket.com/visShowtimes.aspx"));
 function get_vis($url,$name,$namePattern=null,$replace=null){
+	$movies=array();
+	$data=get_web_page($url);
+
+	//should add check for failure here
+	#print_r($data);
+	/*
+		<table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;"> 
+			<tr> <td style="width:5px;"></td><td style="width:250px;"></td><td style="width:320px;"></td><td style="width:5px;"></td> </tr>
+			<tr> <td colspan="1"></td><td colspan="2">
+				<a class="ShowtimesMovieLink" href="visMovieInfo.aspx?MovieName=47+Ronin+Blockbuster&amp;CinemaID=1001">47 Ronin Blockbuster
+				</a>
+			</td><td colspan="1"></td> </tr>
+			<tr> <td colspan="1"></td><td colspan="2"><span class="ShowtimesMovieOtherText">Running Time: 109 mins</span></td><td colspan="1"></td> </tr>
+			<tr> <td colspan="1"></td><td colspan="1"></td><td align="right" colspan="1"><span> </span>
+
+				<a id="32367" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32367">12:15PM</a><span> </span>
+				<a id="32339" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32339">2:30PM</a><span> </span>
+				<a id="32340" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32340">4:45PM</a><span> </span>
+				<a id="32341" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32341">7:00PM</a><span> </span>
+				<a id="32365" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32365">9:15PM</a><span> </span>
+				<a id="32366" class="ShowtimesSessionLink" href="visSelectTickets.aspx?cinemacode=1001&amp;txtSessionId=32366">11:30PM</a>
+			</td><td colspan="1"></td> </tr><tr class="ShowtimesAestheticRow"> <td colspan="4"></td> </tr> </table>
+	*/
+	$pattern_table="/<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"border-collapse:collapse;\">(.+?)<\/table>/";
+	$pattern_movie_name="/<a class=\"ShowtimesMovieLink\"[^>]+>(.+?)<\/a>/";
+	$pattern_time="/<a id=\"[^\"]+\" class=\"ShowtimesSessionLink\"[^>]+>(.+?)<\/a>/";
+	$pattern2="/(<td class=\"PrintShowTimesDay\" valign=\"top\" colspan=\"1\">(.+?)<\/td><td class=\"PrintShowTimesSession\" valign=\"top\" colspan=\"1\">(.+?)<\/td>)+?/";
+	$num=preg_match_all($pattern_table,$data,$matches);
+	for($i=0;$i<$num;$i++){		
+		$numberTimes=preg_match_all($pattern_time,$matches[0][$i],$sessionTimes);
+		date_default_timezone_set('GMT+8');
+		$date= date('d-m');
+		$times=array();
+		$times[$date] = array();
+		for($j=0;$j<$numberTimes;$j++){
+			$temp= date_parse($sessionTimes[1][$j]);
+			$time= sprintf("%02d:%02d",$temp["hour"],$temp["minute"]);
+			
+			$times[$date][]=$time;
+		}
+		preg_match_all($pattern_movie_name,$matches[0][$i],$movieNameExtract);
+		$movieName = @$movieNameExtract[1][0];
+		if($namePattern)
+			$movieName=preg_replace($namePattern,$replace,$movieName);
+		if(count($times))
+			$movies[$movieName]=$times;
+	}
+	return $movies;
+}
+function get_vis_print($url,$name,$namePattern=null,$replace=null){
 	$movies=array();
 	$data=get_web_page($url);
 	//should add check for failure here
@@ -116,6 +169,7 @@ function get_vis($url,$name,$namePattern=null,$replace=null){
 	$pattern2="/(<td class=\"PrintShowTimesDay\" valign=\"top\" colspan=\"1\">(.+?)<\/td><td class=\"PrintShowTimesSession\" valign=\"top\" colspan=\"1\">(.+?)<\/td>)+?/";
 	$num=preg_match_all($pattern,$data,$matches);
 	for($i=0;$i<$num;$i++){
+		// <td class="PrintShowTimesFilm" colspan="2">47 Ronin Blockbuster</td> </tr><tr> <td class="PrintShowTimesDay" valign="top" colspan="1">Daily</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:15PM, 2:30PM, 4:45PM, 7:00PM, 9:15PM</td> </tr><tr style="height:5px;">
 		$dateNum=preg_match_all($pattern2,$matches[0][$i],$mm);
 		$times=array();
 		for($j=0;$j<$dateNum;$j++){
@@ -135,15 +189,15 @@ function get_vis($url,$name,$namePattern=null,$replace=null){
 		if(count($times))
 			$movies[$movieName]=$times;
 	}
-
 	return $movies;
 }
 
 
 function get_mall(){
 	return get_vis(
-		"http://mall-ticket.com/visPrintShowTimes.aspx?visCinemaID=&ReturnURL=visShowtimes.aspx%3fAspxAutoDetectCookieSupport%3d1",
-		//"http://localhost/freedom/mall.htm",
+	 	(@$_GET['local'] == "1" ? 
+		"tests/mall.txt" :
+		"http://mall-ticket.com/visPrintShowTimes.aspx?visCinemaID=&ReturnURL=visShowtimes.aspx%3fAspxAutoDetectCookieSupport%3d1"),
 		"The-Mall",
 		"/ Blockbuster$/",'' //Y U NO NAME CONSISTENTLY?!!
 	);
@@ -151,12 +205,14 @@ function get_mall(){
 
 function get_timesSquare(){
 	$movies=array();
-
-	$data=get_web_page("http://timescineplex.com/schedule/");
-	//$data=get_web_page("http://localhost/freedom/times.htm");
+	if(@$_GET['local'] == "1")
+		$data=get_web_page("tests/timessquare.txt");
+	else
+		$data=get_web_page("http://timescineplex.com/schedule/");
+	
 	$data=str_replace('&nbsp;','',$data);
-	$pattern="/<div class=\"schedule\">.+?<div class=\"schedule-title\">(.+?)<span.+?class=\"schedule-table-container\">(.+?)<\/table>/";
-	$pattern2="/<td.+?\"textwidget\">(.+?)<\/d.+?<p>(.*?)<\/p>.+?<\/td>/";
+	$pattern="/<div class=\"movie-title\">(.+?)<p>.+?class=\"table-scheds\">(.+?)<!--End Movie Row-->/";
+	$pattern2="/<div class=\"textwidget\">(.+?)<\/.+?table-contents\">(.+?)<\/div>/";
 	preg_match_all($pattern,$data,$matches);
 	foreach($matches[2] as $k=>$m){
 		preg_match_all($pattern2,$m,$mm);
@@ -177,8 +233,9 @@ function get_timesSquare(){
 		//foreach
 		global $filter_dates;
 		$times=array_intersect_key(array_filter(array_combine($dates,$times),function($v){ return $v[0]; }), array_flip( $filter_dates ) );
+
 		if(count($times))
-			$movies[trim($matches[1][$k])]["Times-Square"]=$times;
+			$movies[trim(iconv("UTF-8", "ISO-8859-1//TRANSLIT",html_entity_decode($matches[1][$k])))]["Times-Square"]=$times;
 	}
 return $movies;
 }
@@ -187,7 +244,11 @@ function get_qlap(){
 	$movies=array();
 	$d=new DateTime();
 	do{
-		$qlap=get_web_page("http://www.qlapcineplex.com/iphone/services/getshowtimes.php?dt=".$d->format('m/d/Y'));
+	 	if(@$_GET['local'] == "1")
+			$qlap=get_web_page("tests/qlap.txt");
+		else
+			$qlap=get_web_page("http://www.qlapcineplex.com/iphone/services/getshowtimes.php?dt=".$d->format('m/d/Y'));
+
 		$qlap=json_decode(@$qlap,true);
 		$t=$d->format('d-m');
 		if(date_check($t))
@@ -200,6 +261,8 @@ function get_qlap(){
 				$movies[$q["mname"]]['qlap'][$t]=$time;
 		}
 		$d->add(new DateInterval('P1D'));	
+	 	if(@$_GET['local'] == "1") # don't get following days
+	 		break;
 	} while (!empty($qlap["items"]));
 
 	return $movies;
@@ -207,8 +270,10 @@ function get_qlap(){
 }
 
  function get_psbSeria(){
-	$data=json_decode(get_web_page("https://www.facebook.com/feeds/page.php?format=json&id=279414305434229"),true);
-	//$data=json_decode(get_web_page("http://localhost/freedom/feeds.js"),true);
+ 	if(@$_GET['local'] == "1")
+		$data=json_decode(get_web_page("tests/seria.txt"),true);
+	else
+		$data=json_decode(get_web_page("https://www.facebook.com/feeds/page.php?format=json&id=279414305434229"),true);
 	$movies=array();
 	foreach($data["entries"] as $m){
 		$content=preg_replace(array('/<br \/>/','/<.+?>/','/\-[ \n]+?/'),array("\n",'','-'),$m["content"]); //*/
@@ -290,8 +355,10 @@ function add_times($name,$value){
 
 
 function now_showing(){
-	//$movies=get_web_page('http://localhost/freedom/temp.htm');
-	$movies=get_web_page("http://www.cinema.com.my/movies/nowshowing.aspx?search=moviename");
+	if(@$_GET['local'] == "1")	
+		$movies=get_web_page('tests/temp.htm');
+	else
+		$movies=get_web_page("http://www.cinema.com.my/movies/nowshowing.aspx?search=moviename");
 	$movies=str_replace('../','http://www.cinema.com.my/',$movies);
 	$movies=str_replace('00a.jpg','00.jpg',$movies);
 	$pattern="/<tr valign=\"top\"> <td style=\"width: 50px\"> .+?<\/tr/";
@@ -356,21 +423,85 @@ function get_upcoming(){
 
 
 $movies=array_merge(get_upcoming(),now_showing());
+# print_r($movies);
+/*
+
+Array
+(
+	[Movie name] => Array
+	(
+		[Cinema] => Array
+		(
+			[DD-MM] => Array
+			(
+				[0] => HH:MM
+				[1] => HH:MM
+			)
+		)
+	)
+    [Paranormal Activity: The Mark Ones :] => Array
+        (
+            [PSBSeria] => Array
+                (
+                    [05-01] => Array
+                        (
+                            [0] => 12:30
+                            [1] => 14:35
+                            [2] => 16:15
+                            [3] => 19:40
+                            [4] => 21:20
+                        )
+
+                    [04-01] => Array
+                        (
+                            [0] => 10:45
+                            [1] => 12:30
+                            [2] => 14:15
+                            [3] => 17:40
+                            [4] => 19:20
+                            [5] => 21:10
+                            [6] => 23:10
+                        )
+
+                )
+
+        )
+
+)
+*/
+if($_GET['print'] == 1){
+	print_r("mall:");
+	print_r(get_mall());
+}
 foreach(get_mall() as $name=>$time){
 	add_times($name,$time);
 }
 
+if($_GET['print'] == 1){
+	print_r("times:");
+	print_r(get_timesSquare());
+}
+
 foreach(get_timesSquare() as $name=>$time){
 	add_times($name,$time);
+}
+if($_GET['print'] == 1){
+	print_r("qlap:");
+	print_r(get_qlap());
 }
 
 foreach(get_qlap() as $name=>$time){
 	add_times($name,$time);	
 }
 
+if($_GET['print'] == 1){
+	print_r("seria:");
+	print_r(get_psbSeria());
+}
 foreach(get_psbSeria() as $name=>$time){
 	add_times($name,$time);	
 }
+die();
 
 $movies=array_filter($movies,function($v){
 	return !empty($v["cinema"]);
