@@ -165,7 +165,7 @@ function get_vis_print($url,$name,$namePattern=null,$replace=null){
 	$movies=array();
 	$data=get_web_page($url);
 	//should add check for failure here
-	$pattern="/<td class=\"PrintShowTimesFilm\" colspan=\"2\">(.+?)<\/td>.+?(<tr style=\"height:5px;\">|<\/table>)/";
+	$pattern="/PrintShowTimesFilm\" colspan=\"2\">(.+?)<\/.+?<tr>(.+?)<td colspan=\"2\"><\/td>[ ]+?<\/tr><tr>/";
 	$pattern2="/(<td class=\"PrintShowTimesDay\" valign=\"top\" colspan=\"1\">(.+?)<\/td><td class=\"PrintShowTimesSession\" valign=\"top\" colspan=\"1\">(.+?)<\/td>)+?/";
 	$num=preg_match_all($pattern,$data,$matches);
 	for($i=0;$i<$num;$i++){
@@ -180,6 +180,12 @@ function get_vis_print($url,$name,$namePattern=null,$replace=null){
 				$temp=date_parse($v);
 				return sprintf("%02d:%02d",$temp["hour"],$temp["minute"]);
 			},$time);
+			if($mm[2][$j]=="Daily"){
+				global $filter_dates;
+				foreach($filter_dates as $v){
+					$times[$name][$v]=$time;
+				}
+			}
 			if(date_check($date))
 				$times[$name][$date]=$time;
 		}
@@ -194,11 +200,11 @@ function get_vis_print($url,$name,$namePattern=null,$replace=null){
 
 
 function get_mall(){
-	return get_vis(
+	return get_vis_print(
 	 	(@$_GET['local'] == "1" ? 
 		"tests/mall.txt" :
-		"http://mall-ticket.com/visShowtimes.aspx"
-//		"http://mall-ticket.com/visPrintShowTimes.aspx?visCinemaID=&ReturnURL=visShowtimes.aspx%3fAspxAutoDetectCookieSupport%3d1"
+//		"http://mall-ticket.com/visShowtimes.aspx"
+		"http://mall-ticket.com/visPrintShowTimes.aspx"
 		),
 		"The-Mall",
 		"/ Blockbuster$/",'' //Y U NO NAME CONSISTENTLY?!!
@@ -425,7 +431,7 @@ function get_upcoming(){
 
 
 $movies=array_merge(get_upcoming(),now_showing());
-# print_r($movies);
+// print_r($movies);
 /*
 
 Array
@@ -471,6 +477,8 @@ Array
 
 )
 */
+
+
 if(@$_GET['print'] == 1){
 	print_r("mall:");
 	print_r(get_mall());
@@ -517,7 +525,7 @@ if(isset($_GET["callback"])) echo $_GET["callback"],"(";
 echo $json_data;
 if(isset($_GET["callback"])) echo ")";
 
-
+//*/
 
 
 ?>
