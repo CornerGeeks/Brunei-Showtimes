@@ -155,8 +155,8 @@ function get_timesSquare(){
 	$data=get_web_page("http://timescineplex.com/schedule/");
 	//$data=get_web_page("http://localhost/freedom/times.htm");
 	$data=str_replace('&nbsp;','',$data);
-	$pattern="/<div class=\"schedule\">.+?<div class=\"schedule-title\">(.+?)<span.+?class=\"schedule-table-container\">(.+?)<\/table>/";
-	$pattern2="/<td.+?\"textwidget\">(.+?)<\/d.+?<p>(.*?)<\/p>.+?<\/td>/";
+	$pattern="/<div class=\"movie-title\">(.+?)<p>.+?class=\"table-scheds\">(.+?)<!--End Movie Row-->/";
+	$pattern2="/<div class=\"textwidget\">(.+?)<\/.+?table-contents\">(.+?)<\/div>/";
 	preg_match_all($pattern,$data,$matches);
 	foreach($matches[2] as $k=>$m){
 		preg_match_all($pattern2,$m,$mm);
@@ -177,8 +177,9 @@ function get_timesSquare(){
 		//foreach
 		global $filter_dates;
 		$times=array_intersect_key(array_filter(array_combine($dates,$times),function($v){ return $v[0]; }), array_flip( $filter_dates ) );
+
 		if(count($times))
-			$movies[trim($matches[1][$k])]["Times-Square"]=$times;
+			$movies[trim(iconv("UTF-8", "ISO-8859-1//TRANSLIT",html_entity_decode($matches[1][$k])))]["Times-Square"]=$times;
 	}
 return $movies;
 }
