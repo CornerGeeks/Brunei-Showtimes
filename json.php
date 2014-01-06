@@ -318,10 +318,19 @@ function get_qlap(){
 		});
 		//$content=$m["content"];
 		if(preg_match("/Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For(.+?) Updated/",@$content[0],$matches)){
-			$time=preg_replace(array("/[^\d\-\/ ]/","/ .+?/"),array(""," "),$matches[1]);
+			$time=preg_replace(array("/[^\d\-\/ ,]/","/ .+?/"),array(""," "),$matches[1]);
 			$time=array_values(array_filter(explode(" ",$time),"strlen"));
 			$times=array();
-			$d=date_create(str_replace("/","-",$time[0]));
+			//var_dump($time);
+			$time[0]=str_replace(array(",","/"),"-",$time[0]);
+			$time[0]=array_filter(explode("-",$time[0]),"strlen");
+			if(count($time)>1)
+				$time[1]=str_replace(array(",","/"),"-",$time[1]);
+			if(count($time[0])<3)
+				array_push($time[0],"2014"); //insert new year here so lazy wth psb
+			$time[0]=implode("-",$time[0]);
+			//echo $time[0];
+			$d=date_create($time[0]);
 			$endDate=date_create(@$time[1] ?: '1-1-1970');	//for range. fill dates
 			do {
 				$times[]=$d->format('d-m');
@@ -329,6 +338,7 @@ function get_qlap(){
 			} while ($d<=$endDate);
 
 			$mms=array();
+			unset($content[0]);
 			foreach($content as $c){
 				$mm=explode('-',$c);
 				if(count($mm)>1){
@@ -409,7 +419,7 @@ function get_upcoming(){
 
 
 
-$movies=array_merge(get_upcoming(),now_showing());
+
 // print_r($movies);
 /*
 
@@ -464,6 +474,9 @@ $cinema_data=array(
 	"qlap"=>  get_qlap(),
 	"seria"=> get_psbSeria(),
 );
+
+
+$movies=array_merge(get_upcoming(),now_showing());
 
 if(@$_GET['print'] == 1){
 	print_r($cinema_data);
