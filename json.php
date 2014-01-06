@@ -314,7 +314,7 @@ function get_qlap(){
 		$content=preg_replace(array('/<br \/>/','/<.+?>/','/\-[ \n]+?/'),array("\n",'','-'),$m["content"]); //*/
 		$content=explode("\n",$content);
 		$content=array_filter($content,function($v){
-			return trim($v) && !preg_match("/\(.+?\).+?\(.+?\)/",$v);
+			return trim($v) && !preg_match("/\(.+?\).*?\(.+?\)/",$v);
 		});
 		//$content=$m["content"];
 		if(preg_match("/Be Advice MOVIE SCREENING TIME ARE SUBJECT TO CHANGE Movie Schedule For(.+?) Updated/",@$content[0],$matches)){
@@ -339,10 +339,20 @@ function get_qlap(){
 
 			$mms=array();
 			unset($content[0]);
+			$label=null;
 			foreach($content as $c){
 				$mm=explode('-',$c);
+				if(count($mm)<2){
+					if($label) {
+						$mm=array($label,$c);
+						$label=null;
+					} else {
+						$label=$c;
+					}
+				}
 				if(count($mm)>1){
-					$mm[1]=explode(',',preg_replace('/[^0-9:,]/','',$mm[1]));
+					$mm[1]=explode(',',preg_replace(array("/ and /",'/[^0-9:,]/'),array(',',''),$mm[1]));
+
 					foreach($times as $t){
 						if(date_check($t))
 							$movies[trim($mm[0])]["PSBSeria"][$t]=$mm[1];
