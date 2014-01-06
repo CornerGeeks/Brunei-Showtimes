@@ -6,22 +6,6 @@ if(isset($_GET["callback"])){
 }
 header('Cache-Control: max-age=420');
 date_default_timezone_set('Asia/Brunei');   //to keep date() consistent
-$cachefile=__DIR__ ."/cash/".(int)(date_timestamp_get(date_create())/7200).".json";  //every... 2 hours?
-$headers = apache_request_headers(); 
-if(file_exists($cachefile) && @empty($_GET['local'])){
-	if (isset($headers['If-Modified-Since']) && (strtotime($headers['If-Modified-Since']) == filemtime($cachefile))) {
-	    header('Last-Modified: '.gmdate('D, d M Y H:i:s', filemtime($cachefile)).' GMT', true, 304);
-	}
-	output(file_get_contents($cachefile));
-	exit();
-}
-
-
-function output($s){  //callback. maybe some filtering in future?
-	if(isset($_GET["callback"])) echo $_GET["callback"],"(";
-	echo $s;
-	if(isset($_GET["callback"])) echo ")";
-}
 
 
 $common=array("d", //filters 2d,3d
@@ -75,29 +59,6 @@ function get_rating($m){
 		}
 	return $matched==5 ? $star : "N/A";
 }
-
-function add_times($name,$value){
-	global $movies;   //existing database of movies from cinema.com.my
-	$likely=0;
-	$likely_str="";
-	foreach($movies as $k=>$m){  //tries to find a match to existing database of movies
-		$curr=compare_name($name,$k);
-		if($curr==100){
-			$likely_str=$k;
-			break;
-		}
-		if($curr>$likely){  
-			$likely_str=$k;
-			$likely=$curr;
-		}
-	}
-	if($likely_str)
-		$movies[$likely_str]["cinema"][]=array($name=>$value);
-
-	//will dump movie times if it's not in the list. example. QLap is showing old indonesian films.
-	//might need fix? Perhaps maintain our own movie DB
-}
-
 
 
  function get_post( $url,$data=null) { //stole off stackoverflow lolz. probably should fold into one		
@@ -280,7 +241,7 @@ function get_qlap(){
 	$d=new DateTime();
 	do{
 	 	if(@$_GET['local'] == "1")
-			$qlap=get_post("tests/qlap.txt");
+			$qlap=get_post("tests/qlap.txt"); //probably should check if this infinite loops
 		else
 			$qlap=get_post("http://www.qlapcineplex.com/iphone/services/getshowtimes.php?dt=".$d->format('m/d/Y'));
 
@@ -432,7 +393,6 @@ function get_upcoming(){
 
 // print_r($movies);
 /*
-
 Array
 (
 	[Movie name] => Array
@@ -477,37 +437,89 @@ Array
 )
 */
 
-
-$cinema_data=array(
-	"mall"=>  get_mall(),
-	"times"=> get_timesSquare(),
-	"qlap"=>  get_qlap(),
-	"seria"=> get_psbSeria(),
-);
-
-
-$movies=array_merge(get_upcoming(),now_showing());
-
-if(@$_GET['print'] == 1){
-	print_r($cinema_data);
-} 
-
-foreach($cinema_data as $cname=>$data){
-	//if(!$data)
-	//	email something is wrong with $cname?
-	//	probably changed html and broken regex.
-	foreach($data as $mname=>$time){
-		add_times($mname,$time);
+function cache(					
+		//automatically caches the results of expensive functions like scrapers. Parameters:
+		callable $func,    // callable
+		$name="",  		   // label?
+		$time=2,   	       // hours
+		$json=false        // store serialized vs json. maybe should reverse?
+	)
+{
+	$cachefile=__DIR__ ."/cash/".$name.(int)(date_timestamp_get(date_create())/($time*60*60)).".json";
+	$lastfile=__DIR__ ."/cash/".$name."LAST.json"; //backup
+	$headers = apache_request_headers(); 
+	if(file_exists($cachefile) && @empty($_GET['local'])){
+		if (isset($headers['If-Modified-Since']) && (strtotime($headers['If-Modified-Since']) == filemtime($cachefile))) {
+		    header('Last-Modified: '.gmdate('D, d M Y H:i:s', filemtime($cachefile)).' GMT', true, 304);
+		    //supposed to be return 304 not modified
+		    exit(); //do we need exit here? how does this work? 
+		}
+		$data=file_get_contents($cachefile);
+		if(!$json)
+			$data=unserialize($data);  //wonder should json? seems faster. other option is var_export
+	} else {
+		$data=$func();
+		//if error / !$data
+		//  use lastfile data //put this after email. don't want totally silent failure
+		//	email something is wrong with $name?
+		//	probably changed html and broken regex.
+		//else
+		//  write as usual.
+		$data_str=!$json?serialize($data):$data; //wonder should json? seems faster other option is var_export
+		file_put_contents($cachefile,$data_str);
+		file_put_contents($lastfile,$data_str);
 	}
+	if(@$_GET['print'] == 1){
+		echo $name,":";
+		print_r($data);
+	} 
+	return $data;
 }
 
-$json_data= json_encode(
-	array_filter($movies,function($v){  
-		return !empty($v["cinema"]); //only show movies that are released in brunei
-	})
-); 
-file_put_contents($cachefile,$json_data);
-output($json_data);
+if(isset($_GET["callback"])) echo $_GET["callback"],"(";
+echo cache(function(){
+	$cinema_data=array(
+		 "mall"=>cache("get_mall","mall"),
+		"times"=>cache("get_timesSquare","times"),
+		 "qlap"=>cache("get_qlap","qlap"),
+		"seria"=>cache("get_psbSeria","seria")
+	);
+
+	$movies=array_merge(
+		cache("get_upcoming","upcoming",24),
+		cache("now_showing","now_showing",24)
+	);
+
+	foreach($cinema_data as $cname=>$data){
+		foreach($data as $mname=>$time){
+			$likely=0;
+			$likely_str="";
+			foreach($movies as $k=>$m){  //tries to find a match to existing database of movies
+				$curr=compare_name($mname,$k);
+				if($curr==100){
+					$likely_str=$k;
+					break;
+				}
+				if($curr>$likely){  
+					$likely_str=$k;
+					$likely=$curr;
+				}
+			}
+			if($likely_str)
+				$movies[$likely_str]["cinema"][]=array($mname=>$time);  //should fix rubbish nestedness
+			//will dump movie times if it's not in the list. example. QLap is showing old indonesian films.
+			//might need fix? Perhaps maintain our own movie DB
+		}
+	}
+
+	$json_data= json_encode(  //move out json_encode? can remove json check in cache(). maybe way slower
+		array_filter($movies,function($v){  
+			return !empty($v["cinema"]); //only show movies that are released in brunei
+		})
+	);
+	return $json_data;
+},"main",2,true);
+if(isset($_GET["callback"])) echo ")";
 
 
 //*/
