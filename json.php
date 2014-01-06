@@ -439,10 +439,10 @@ Array
 
 function cache(					
 		//automatically caches the results of expensive functions like scrapers. Parameters:
-		callable $func,    // callable
-		$name="",  		   // label?
-		$time=2,   	       // hours
-		$json=false        // store serialized vs json. maybe should reverse?
+		$func,      // callable
+		$name="",  	// label?
+		$time=2,   	// hours
+		$json=false // store serialized vs json. maybe should reverse?
 	)
 {
 	$cachefile=__DIR__ ."/cash/".$name.(int)(date_timestamp_get(date_create())/($time*60*60)).".json";
