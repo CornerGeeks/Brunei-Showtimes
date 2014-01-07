@@ -23,13 +23,15 @@ for($i=0;$i<7;$i++){
 	$filter_dates[]=$d->format("d-m");
 	$d->add(new DateInterval('P1D'));
 }
+
+
 function date_check($t){
 	global $filter_dates;
 	return in_array($t,$filter_dates);
 }
 
 function d($n){
-	return $n<9?"0".$n:$n;
+	return $n<10?"0".$n:$n;
 }
 
 
@@ -184,7 +186,7 @@ function get_timesSquare(){
 		}
 		global $filter_dates;
 		$times=array_intersect_key(array_filter($data,function($v){ return $v[0]; }), array_flip( $filter_dates ) );
-
+		ksort($times);
 		if(count($times))
 			$movies[trim(iconv("UTF-8", "ISO-8859-1//TRANSLIT",html_entity_decode($matches[1][$k])))]["Times-Square"]=$times;
 	}
